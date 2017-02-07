@@ -19,13 +19,6 @@
     text-align: center;
     margin-top: 20px;
     padding: 0 10px;
-    i {
-        font-size: 18px;
-        margin: 0 10px;
-        &:hover {
-            color: $diy;
-        }
-    }
     img {
         transform: translateY(10px);
     }
@@ -40,7 +33,6 @@
     font-size: 15px;
     border: 1px solid $line;
     border-radius: 20px;
-    margin-right: 20px;
     box-shadow: inset 0 1px 5px 0 rgba(#000, .2);
     outline: none;
     &:hover {
@@ -78,13 +70,13 @@
     border-radius: 20px;
     margin: 6px 2px;
     &:hover {
-        background: #5fcdaa;
+        background: $diy;
         color: #fff;
     }
 }
 
 .section-selected {
-    background: #5fcdaa;
+    background: $diy;
     color: #fff;
 }
 

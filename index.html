@@ -75,8 +75,6 @@
     <nav class="user-bar">
         <fieldset class="filter-group search-bar search">
             <input type="text" placeholder="&#xF002; Busca tutoriales, articulos, tiendas..." class="search-input">
-            <i class="fa fa-heart-o"></i>
-            <i class="fa fa-user-o"></i>
             <img src="img/avatar.png" alt="user" class="user-btn">
         </fieldset>
         <div class="sections">
@@ -89,6 +87,7 @@
     
     <div>
         <main class="page-tutoriales">
+
             <article class="ultimo">
                 <div class="ultimo-img">
                     <img src="img/back.jpeg" alt="ultimo">
@@ -98,6 +97,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde modi aliquam quia temporibus eum fugit, sit inventore consectetur!</p>
                 </div>
             </article>
+
             <article id="Container" class="container all-content">
                
                 <!-- Mensaje de error -->
@@ -122,10 +122,18 @@
                     <iframe class="modal-video t-hide" ng-src="{{tutorial.video | trustAsResourceUrl}}"></iframe>
                     <h1 class="modal-titulo t-hide">{{tutorial.titulo}}</h1>
                     <p class="modal-descripcion t-hide">{{tutorial.descripcion}}</p>
+                    <ul class="modal-materiales t-hide">
+                        <h3>Materiales</h3>
+                        <li ng-repeat="material in tutorial.materiales">{{material}}</li>
+                    </ul>
                 </div>
+
             </article>
+
         </main>
+
     </div>
+
     <footer>
         <div class="registrate">
             <img src="img/footer.svg" alt="footer">
@@ -155,10 +163,12 @@
                 <div class="box-content">
                     <h1 class="tut-titulo"></h1>
                     <p class="tut-descripcion"></p>
+                    <ul class="materiales-box"></ul>
                 </div>
-                <div class="pasos-comentarios">
-                    <a href="#" class="btn-pasos vp-activo">PASOS</a>
-                    <a href="#" class="btn-comentarios">COMENTARIOS</a>
+                <div class="bm-contenedor">
+                    <a href="#" class="btn-modal bm-activo">DESCRIPCION</a>
+                    <a href="#" class="btn-modal">PASOS</a>
+                    <a href="#" class="btn-modal">COMENTARIOS</a>
                 </div>
             </div>
         </div>
