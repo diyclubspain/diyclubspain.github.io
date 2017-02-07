@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* line 1, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.filter-menu {
+  display: none; }
+
+/* line 5, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.user-bar {
+  width: 100%;
+  left: 0; }
+
+/* line 10, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.user-btn:hover {
+  transform: scale(1, 1); }
+
+/* line 14, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.ultimo {
+  flex-direction: column; }
+
+/* line 18, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+main {
+  width: 100%;
+  margin: 140px 0 0 0; }
+
+/* line 24, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+footer {
+  width: 100%;
+  margin: 0;
+  height: 450px; }
+
+/* line 30, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.registrate {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; }
+  /* line 35, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+  .registrate img {
+    height: 150px; }
+
+/* line 40, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.footer-claim {
+  width: 80%;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 20px; }
+
+/* line 47, /Users/elbalneario/Google Drive/DISEÑO/Cambios web/diyclub/css/m-estilos.scss */
+.footer-bar {
+  display: none; }
+
+/*# sourceMappingURL=m-estilos.css.map */

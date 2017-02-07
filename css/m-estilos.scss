@@ -1,0 +1,49 @@
+.filter-menu {
+    display: none;
+}
+
+.user-bar {
+    width: 100%;
+    left: 0;
+}
+
+.user-btn:hover {
+    transform: scale(1, 1);
+}
+
+.ultimo {
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    margin: 140px 0 0 0;
+    
+}
+
+footer {
+    width: 100%;
+    margin: 0;
+    height: 450px;
+}
+
+.registrate {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    img {
+        height: 150px;
+    }
+}
+
+.footer-claim {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    padding: 0 0 20px;
+}
+
+.footer-bar {
+    display: none;
+}

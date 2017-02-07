@@ -1,0 +1,112 @@
+.tut-modal {
+    position: fixed;
+    top: -1000px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0s;
+}
+
+.tut-container {
+    width: 90%;
+    max-width: 1440px;
+    height: 80%;
+    max-height: 900px;
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(#000, .2);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-tutorial {
+    width: 70%;
+    height: calc(100% + 1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pasos {
+    display: none;
+}
+
+.tut-video {
+    width: 100%;
+    height: 100%;
+}
+
+.tut-box {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px 20px;
+}
+
+.modal-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999;
+    font-size: 20px;
+    opacity: 1;
+    &:hover {
+        opacity: .5;
+    }
+}
+
+.box-content {
+    height: calc(100% - 40px);
+}
+
+.tut-titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .tut-titulo {
+        font-size: 40px;
+    }
+}
+
+.tut-descripcion {
+    font-size: 14px;
+}
+
+.pasos-comentarios {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        border: 1px solid $line;
+        padding: 5px 10px;
+        font-size: 12px;
+        &:hover {
+            opacity: .5;
+        }
+    }
+}
+
+.btn-pasos {
+    border-radius: 20px 0 0 20px;
+}
+.btn-comentarios {
+    border-radius: 0 20px 20px 0;
+}
+
+.vp-activo {
+    opacity: .5;
+}
