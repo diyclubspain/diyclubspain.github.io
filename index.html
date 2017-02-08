@@ -84,7 +84,7 @@
             <div id="btn-tiendas" class="section">Tiendas</div>
         </div>
     </nav>
-    
+
     <div>
         <main class="page-tutoriales">
 
@@ -99,7 +99,7 @@
             </article>
 
             <article id="Container" class="container all-content">
-               
+
                 <!-- Mensaje de error -->
                 <div class="fail-message"><span>Ups! no lo tenemos todavía, pero pensaremos en ello!</span></div>
 
@@ -180,7 +180,18 @@
     <script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
     <script type="text/javascript" src="lib/filter.js"></script>
     <script type="text/javascript" src="lib/firstVisit.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript"> /* main.js minW 1038 */
+        (function () {
+            if (window.innerWidth > 1038) {
+                var theScript = document.createElement('script');
+                theScript.type = 'text/javascript';
+                theScript.src = 'js/main.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(theScript, s);
+            }
+        })();
+    </script>
     <script type="text/javascript" src="js/tutoriales.js"></script>
     <script>
         $('#bienvenidos').firstVisitPopup({
