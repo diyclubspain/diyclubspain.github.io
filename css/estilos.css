@@ -335,30 +335,29 @@ select {
   height: 320px;
   background: no-repeat center;
   background-size: cover;
-  border: 1px solid rgba(191, 191, 191, 0.5);
   border-radius: 5px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 2px 4px 0 rgba(0, 0, 0, 0.4), inset 0 5px 10px 0 rgba(255, 255, 255, 0.7);
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px;
   transition: 0s; }
-  /* line 15, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 18, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
   .tarjeta:hover {
-    transform: scale(1.03, 1.03) rotate(-1deg);
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+    transform: perspective(1200px) rotateX(15deg) scale(1.05, 1.05) translateY(-10px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 10px 15px 0 rgba(0, 0, 0, 0.2), inset 0 5px 10px 0 rgba(255, 255, 255, 0.7);
     transition: .2s; }
 
-/* line 22, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 28, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .container .tarjeta {
   display: none; }
 
-/* line 26, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 32, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .t-hide {
   display: none; }
 
-/* line 30, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 36, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .favorito {
   color: #f9f9f9;
   cursor: pointer;
@@ -368,18 +367,18 @@ select {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   margin: 5px 5px 0 0; }
 
-/* line 40, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 46, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .favorito:hover {
   color: #ff3c3c;
   transform: scale(1.2, 1.2); }
 
-/* line 45, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 51, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .fa-content {
   width: 100%;
   display: flex;
   justify-content: flex-end; }
 
-/* line 51, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 57, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .categoria-tarjeta {
   width: 40px;
   height: 40px;
@@ -387,87 +386,88 @@ select {
   z-index: 1;
   transform: translate(15px, 80px); }
 
-/* line 59, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 65, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .segunda {
   background-image: url("../img/tarjeta-segunda-vida.png"); }
 
-/* line 63, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 69, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .papeles {
   background-image: url("../img/tarjeta-papel.png"); }
 
-/* line 67, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 73, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .labores {
   background-image: url("../img/tarjeta-labores.png"); }
 
-/* line 71, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 77, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .peques {
   background-image: url("../img/tarjeta-peques.png"); }
 
-/* line 75, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 81, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .decoracion {
   background-image: url("../img/tarjeta-decoracion.png"); }
 
-/* line 79, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 85, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .otras {
   background-image: url("../img/tarjeta-otras-ideas.png"); }
 
-/* line 83, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 89, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .caja {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  overflow: hidden; }
-  /* line 90, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+  overflow: hidden;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4), 0 2px 4px 0 rgba(0, 0, 0, 0.3), inset 0 5px 10px 0 rgba(255, 255, 255, 0.5); }
+  /* line 100, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
   .caja:hover {
-    background-color: #fff; }
+    background-color: rgba(255, 255, 255, 0.95); }
 
-/* line 95, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 105, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .titulo {
   font-size: 13px;
   font-weight: 700;
   padding: 25px 15px 0 15px; }
 
-/* line 101, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 111, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .master {
   font-size: 11px;
   padding: 5px 0 15px 15px; }
-  /* line 104, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 114, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
   .master a {
     color: #55c4b6;
     font-style: italic; }
-  /* line 108, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 118, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
   .master:hover {
     text-decoration: none; }
-  /* line 111, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 121, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
   .master .fa {
     margin-left: 10px; }
 
-/* line 116, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 126, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-caja {
   height: 35px;
   background-color: rgba(249, 249, 249, 0.9);
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgba(191, 191, 191, 0.5);
+  border-top: 1px solid rgba(68, 68, 68, 0.5);
   font-size: 10px;
   text-align: center;
   align-items: center; }
 
-/* line 127, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 137, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .divider-tarjeta {
   width: 1px;
   background-color: rgba(191, 191, 191, 0.5);
   height: 100%; }
 
-/* line 133, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 143, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-izq {
   width: 56%;
   text-align: left;
   padding-left: 15px; }
 
-/* line 139, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 149, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-cen,
 .sub-der {
   width: 22%;
@@ -475,17 +475,17 @@ select {
   justify-content: center;
   align-items: center; }
 
-/* line 147, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 157, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-cen p {
   font-size: 14px;
   margin-left: 2px; }
 
-/* line 152, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 162, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .vision {
   color: #444;
   font-size: 12px; }
 
-/* line 157, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 167, /Users/elbalneario/Desktop/diyclubspain.github.io/css/_tarjetas.scss */
 .rate {
   color: #444;
   font-size: 12px;
