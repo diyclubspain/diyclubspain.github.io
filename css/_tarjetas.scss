@@ -8,7 +8,7 @@
     box-shadow:
         0 1px 1px 0 rgba(#000, .9),
         0 2px 4px 0 rgba(#000, .4),
-        inset 0 5px 10px 0 rgba(#fff, .7);
+        inset 0 0 5px 1px rgba(#fff, .7);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
         box-shadow:
             0 1px 1px 0 rgba(#000, .9),
             0 10px 15px 0 rgba(#000, .2),
-            inset 0 5px 10px 0 rgba(#fff, .7);
+            inset 0 0 5px 1px rgba(#fff, .7);
         transition: .2s;
     }
 }
@@ -96,7 +96,7 @@
     box-shadow:
         0 1px 1px 0 rgba(#000, .4),
         0 2px 4px 0 rgba(#000, .3),
-        inset 0 5px 10px 0 rgba(#fff, .5);
+        inset 0 0 5px 1px rgba(#fff, .7);
     &:hover {
         background-color: rgba(#fff, .95);
     }
