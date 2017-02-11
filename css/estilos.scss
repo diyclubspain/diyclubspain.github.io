@@ -25,15 +25,14 @@ main {
     background: $back;
     border-radius: 10px;
     border: 1px solid $line;
-    border-left: 2px solid $line;
-    border-right: 2px solid $line;
     margin-bottom: 40px;
     overflow: hidden;
     cursor: pointer;
     padding: 40px;
+    box-shadow: $vol;
     &:hover {
-        transform: scale(1.02, 1.02);
-        box-shadow: 0 5px 15px 0 rgba(#000, .1);
+        transform: scale(1.02, 1.02) rotate(-2deg) translateY(-20px);
+        box-shadow: $hvol;
     }
 }
 
@@ -73,10 +72,9 @@ main {
     padding: 25px;
     background: $back;
     border: 1px solid $line;
-    border-left: 2px solid $line;
-    border-right: 2px solid $line;
     border-radius: 10px;
     transition: 0s;
+    box-shadow: inset 0 0 10px 0 rgba(#000, .2);
 }
 
 @media only screen and (max-width: 1556px) {
