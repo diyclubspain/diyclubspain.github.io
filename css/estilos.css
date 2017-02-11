@@ -1,4 +1,4 @@
-/* line 18, /Users/elbalneario/Documents/diyclubspain.github.io/css/_base.scss */
+/* line 20, /Users/verdu/Documents/diyclubspain.github.io/css/_base.scss */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,18 +7,18 @@
   transition: .3s;
   color: #444;
   font-family: Roboto Mono; }
-  /* line 26, /Users/elbalneario/Documents/diyclubspain.github.io/css/_base.scss */
+  /* line 28, /Users/verdu/Documents/diyclubspain.github.io/css/_base.scss */
   * h1 {
     font-family: Abril Fatface;
     line-height: 1.1; }
 
-/* line 32, /Users/elbalneario/Documents/diyclubspain.github.io/css/_base.scss */
+/* line 34, /Users/verdu/Documents/diyclubspain.github.io/css/_base.scss */
 html, body {
   width: 100%;
   height: 100%;
   background: #f9f9f9; }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
 #fvpp-blackout {
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ html, body {
   background: #fff;
   opacity: .7; }
 
-/* line 13, /Users/elbalneario/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
+/* line 13, /Users/verdu/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
 #bienvenidos {
   position: fixed;
   top: 15%;
@@ -44,14 +44,14 @@ html, body {
   border: 1px solid rgba(191, 191, 191, 0.5);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 27, /Users/elbalneario/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
+/* line 27, /Users/verdu/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
 #fvpp-close {
   position: absolute;
   top: 10px;
   right: 20px;
   cursor: pointer; }
 
-/* line 34, /Users/elbalneario/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
+/* line 34, /Users/verdu/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
 .bienvenidos-content {
   width: 100%;
   height: 100%;
@@ -59,11 +59,11 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  /* line 41, /Users/elbalneario/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
+  /* line 41, /Users/verdu/Documents/diyclubspain.github.io/css/_bienvenidos.scss */
   .bienvenidos-content img {
     width: 70%; }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .filter-menu {
   position: fixed;
   top: 0;
@@ -76,18 +76,18 @@ html, body {
   border-right: 1px solid rgba(191, 191, 191, 0.5);
   z-index: 999; }
 
-/* line 14, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 14, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .logo {
   width: 100%;
   padding: 40px;
   border-bottom: 1px solid rgba(191, 191, 191, 0.5); }
 
-/* line 20, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 20, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .categorias {
   width: 100%;
   margin-bottom: 15px; }
 
-/* line 25, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 25, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .filter-eye,
 .filter-x {
   width: 100%;
@@ -97,26 +97,26 @@ html, body {
   border: none;
   background: transparent;
   outline: none; }
-  /* line 34, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+  /* line 34, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
   .filter-eye i,
   .filter-x i {
     font-size: 16px;
     opacity: .8; }
-    /* line 37, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+    /* line 37, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
     .filter-eye i:hover,
     .filter-x i:hover {
       opacity: 1;
       color: #5fcdaa; }
 
-/* line 44, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 44, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 fieldset {
   border: none; }
 
-/* line 48, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 48, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .filter-group input[type="checkbox"] {
   display: none; }
 
-/* line 52, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 52, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .categoria {
   width: 100%;
   display: flex;
@@ -127,27 +127,27 @@ fieldset {
   border: none;
   background: transparent;
   outline: none; }
-  /* line 62, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+  /* line 62, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
   .categoria:hover {
     transform: scale(1.1, 1.1);
     transform-origin: left; }
-  /* line 66, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+  /* line 66, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
   .categoria img {
     height: 35px;
     margin-right: 10px; }
 
-/* line 72, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 72, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 #categoria-activa {
   color: #5fcdaa;
   cursor: pointer;
   transform: scale(1.1, 1.1);
   transform-origin: left; }
-  /* line 77, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+  /* line 77, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
   #categoria-activa:hover {
     transform: scale(1.1, 1.1);
     transform-origin: left; }
 
-/* line 83, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 83, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .ordenar {
   display: flex;
   justify-content: center;
@@ -155,7 +155,7 @@ fieldset {
   padding: 20px;
   border-bottom: 1px solid rgba(191, 191, 191, 0.5); }
 
-/* line 91, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 91, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 select {
   width: 90%;
   height: 30px;
@@ -163,13 +163,13 @@ select {
   outline-color: #5fcdaa;
   border: 1px solid rgba(191, 191, 191, 0.5); }
 
-/* line 99, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 99, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .dificultad {
   width: 100%;
   margin-top: 20px;
   text-align: center; }
 
-/* line 105, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 105, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .d-btn {
   border-radius: 20px;
   padding: 5px 10px;
@@ -178,31 +178,31 @@ select {
   background: transparent;
   outline: none; }
 
-/* line 114, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 114, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 #d-btn-activo {
   background: #5fcdaa;
   border: 1px solid #5fcdaa;
   color: #fff; }
 
-/* line 120, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 120, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .f-dificil:hover {
   background: #ff3c3c;
   border-color: #ff3c3c;
   color: #fff; }
 
-/* line 126, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 126, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .f-medio:hover {
   background: #ffc83c;
   border-color: #ffc83c;
   color: #fff; }
 
-/* line 132, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 132, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .f-facil:hover {
   background: #3cff64;
   border-color: #3cff64;
   color: #fff; }
 
-/* line 138, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 138, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .container .fail-message {
   position: absolute;
   top: 480px;
@@ -216,26 +216,26 @@ select {
   -moz-transition: 150ms;
   transition: 150ms; }
 
-/* line 152, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 152, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .container .fail-message:before {
   content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%; }
 
-/* line 159, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 159, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .container .fail-message span {
   display: inline-block;
   vertical-align: middle;
   font-size: 20px;
   font-weight: 700; }
 
-/* line 166, /Users/elbalneario/Documents/diyclubspain.github.io/css/_filtro.scss */
+/* line 166, /Users/verdu/Documents/diyclubspain.github.io/css/_filtro.scss */
 .container.fail .fail-message {
   opacity: 1;
   pointer-events: auto; }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-bar {
   position: fixed;
   top: 0;
@@ -250,18 +250,18 @@ select {
   box-shadow: 0 0 50px 50px rgba(255, 255, 255, 0.9);
   transition: 0s; }
 
-/* line 16, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 16, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-bar {
   width: 100%;
   height: 80px;
   text-align: center;
   margin-top: 20px;
   padding: 0 10px; }
-  /* line 22, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 22, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .search-bar img {
     transform: translateY(10px); }
 
-/* line 27, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 27, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-input {
   width: 70%;
   height: 40px;
@@ -273,21 +273,21 @@ select {
   border-radius: 20px;
   box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   outline: none; }
-  /* line 38, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 38, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .search-input:hover {
     border-color: #5fcdaa; }
 
-/* line 43, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 43, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-btn {
   height: 30px;
   margin: 0 10px;
   opacity: 1; }
-  /* line 47, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 47, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .user-btn:hover {
     transform: scale(2, 2);
     transform-origin: top left; }
 
-/* line 53, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 53, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .sections {
   display: flex;
   justify-content: center;
@@ -299,7 +299,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 65, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 65, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section {
   text-align: center;
   padding: 7px;
@@ -307,12 +307,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 6px 2px; }
-  /* line 72, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 72, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .section:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 78, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 78, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section-selected {
   background: #5fcdaa;
   color: #fff; }
@@ -329,35 +329,36 @@ select {
   to {
     transform: translateY(300px); } }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .tarjeta {
   width: 240px;
   height: 320px;
   background: no-repeat center;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 4px 10px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px 1px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 4px 5px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(191, 191, 191, 0.5);
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px;
   transition: 0s; }
-  /* line 14, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 15, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
   .tarjeta:hover {
-    transform: perspective(1200px) rotateX(15deg) scale(1.05, 1.05) translateY(-10px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 10px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.7);
+    transform: perspective(1200px) rotateX(5deg) scale(1.03, 1.03) translateY(-10px);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.7);
     transition: .2s; }
 
-/* line 21, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 22, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .container .tarjeta {
   display: none; }
 
-/* line 25, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 26, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .t-hide {
   display: none; }
 
-/* line 29, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 30, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .favorito {
   color: #fff;
   cursor: pointer;
@@ -367,18 +368,18 @@ select {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   margin: 5px 5px 0 0; }
 
-/* line 39, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 40, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .favorito:hover {
   color: #ff3c3c;
   transform: scale(1.2, 1.2); }
 
-/* line 44, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 45, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .fa-content {
   width: 100%;
   display: flex;
   justify-content: flex-end; }
 
-/* line 50, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 51, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .categoria-tarjeta {
   width: 40px;
   height: 40px;
@@ -386,31 +387,31 @@ select {
   z-index: 1;
   transform: translate(15px, 80px); }
 
-/* line 58, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 59, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .segunda {
   background-image: url("../img/tarjeta-segunda-vida.png"); }
 
-/* line 62, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 63, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .papeles {
   background-image: url("../img/tarjeta-papel.png"); }
 
-/* line 66, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 67, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .labores {
   background-image: url("../img/tarjeta-labores.png"); }
 
-/* line 70, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 71, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .peques {
   background-image: url("../img/tarjeta-peques.png"); }
 
-/* line 74, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 75, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .decoracion {
   background-image: url("../img/tarjeta-decoracion.png"); }
 
-/* line 78, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 79, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .otras {
   background-image: url("../img/tarjeta-otras-ideas.png"); }
 
-/* line 82, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 83, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .caja {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
@@ -418,33 +419,33 @@ select {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 4px 10px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px 1px rgba(255, 255, 255, 0.7); }
-  /* line 90, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 4px 5px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.7); }
+  /* line 91, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
   .caja:hover {
     background-color: rgba(255, 255, 255, 0.95); }
 
-/* line 95, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 96, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .titulo {
   font-size: 13px;
   font-weight: 700;
   padding: 25px 15px 0 15px; }
 
-/* line 101, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 102, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .master {
   font-size: 11px;
   padding: 5px 0 15px 15px; }
-  /* line 104, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 105, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
   .master a {
     color: #55c4b6;
     font-style: italic; }
-  /* line 108, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 109, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
   .master:hover {
     text-decoration: none; }
-  /* line 111, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+  /* line 112, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
   .master .fa {
     margin-left: 10px; }
 
-/* line 116, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 117, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-caja {
   height: 35px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -455,19 +456,19 @@ select {
   text-align: center;
   align-items: center; }
 
-/* line 127, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 128, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .divider-tarjeta {
   width: 1px;
   background-color: rgba(191, 191, 191, 0.5);
   height: 100%; }
 
-/* line 133, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 134, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-izq {
   width: 56%;
   text-align: left;
   padding-left: 15px; }
 
-/* line 139, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 140, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-cen,
 .sub-der {
   width: 22%;
@@ -475,23 +476,23 @@ select {
   justify-content: center;
   align-items: center; }
 
-/* line 147, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 148, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .sub-cen p {
   font-size: 14px;
   margin-left: 2px; }
 
-/* line 152, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 153, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .vision {
   color: #444;
   font-size: 12px; }
 
-/* line 157, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tarjetas.scss */
+/* line 158, /Users/verdu/Documents/diyclubspain.github.io/css/_tarjetas.scss */
 .rate {
   color: #444;
   font-size: 12px;
   margin-left: 10px; }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-modal {
   position: fixed;
   top: -1000px;
@@ -505,7 +506,7 @@ select {
   opacity: 0;
   transition: 0s; }
 
-/* line 15, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 15, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-container {
   width: 90%;
   max-width: 1440px;
@@ -517,7 +518,7 @@ select {
   border-radius: 10px;
   overflow: hidden; }
 
-/* line 27, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 27, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .video-tutorial {
   width: 70%;
   height: calc(100% + 1px);
@@ -525,16 +526,16 @@ select {
   flex-direction: column;
   align-items: center; }
 
-/* line 35, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 35, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .pasos {
   display: none; }
 
-/* line 39, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 39, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-video {
   width: 100%;
   height: 100%; }
 
-/* line 44, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 44, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-box {
   position: relative;
   width: 30%;
@@ -543,7 +544,7 @@ select {
   align-items: center;
   padding: 50px 0 20px 0; }
 
-/* line 53, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 53, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .modal-cerrar {
   position: absolute;
   top: 20px;
@@ -555,49 +556,49 @@ select {
   z-index: 9999;
   font-size: 20px;
   opacity: 1; }
-  /* line 64, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 64, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .modal-cerrar:hover {
     opacity: .5; }
 
-/* line 69, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 69, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .box-content {
   width: 100%;
   height: calc(100% - 40px);
   overflow-y: auto;
   padding: 0 40px 20px; }
 
-/* line 76, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 76, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-titulo {
   font-size: 25px;
   margin-bottom: 20px; }
 
 @media only screen and (max-width: 1280px) {
-  /* line 82, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 82, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .tut-titulo {
     font-size: 25px; } }
 
-/* line 87, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 87, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-descripcion {
   font-size: 12px;
   padding: 10px 0;
   border-top: 1px solid rgba(191, 191, 191, 0.5);
   border-bottom: 1px solid rgba(191, 191, 191, 0.5); }
 
-/* line 94, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 94, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .materiales-box {
   width: 100%;
   margin-top: 20px; }
-  /* line 97, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 97, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .materiales-box h3 {
     font-size: 16px;
     margin-bottom: 10px; }
-  /* line 101, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 101, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .materiales-box li {
     width: 90%;
     margin-left: 10%;
     font-size: 12px; }
 
-/* line 108, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 108, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .bm-contenedor {
   display: flex;
   justify-content: center;
@@ -609,7 +610,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 120, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 120, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .btn-modal {
   text-align: center;
   padding: 7px;
@@ -617,17 +618,17 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 4px 2px; }
-  /* line 127, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 127, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .btn-modal:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 133, /Users/elbalneario/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 133, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .bm-activo {
   background: #5fcdaa;
   color: #fff; }
 
-/* line 1, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 footer {
   width: calc(100% - 250px);
   height: 240px;
@@ -635,17 +636,17 @@ footer {
   display: flex;
   flex-direction: column; }
 
-/* line 9, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 9, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .registrate {
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: flex-end; }
-  /* line 14, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+  /* line 14, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
   .registrate img {
     height: 200px; }
 
-/* line 19, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 19, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .footer-claim {
   width: 40%;
   height: 200px;
@@ -654,18 +655,18 @@ footer {
   flex-direction: column;
   justify-content: center; }
 
-/* line 28, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 28, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .footer-titulo {
   font-family: Abril fatface;
   font-size: 25px;
   margin-bottom: 10px; }
 
-/* line 34, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 34, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .footer-text {
   font-size: 14px;
   margin-bottom: 10px; }
 
-/* line 39, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 39, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .footer-btn {
   width: 102px;
   background: #5fcdaa;
@@ -674,7 +675,7 @@ footer {
   color: #fff;
   font-size: 12px; }
 
-/* line 48, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+/* line 48, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
 .footer-bar {
   height: 40px;
   display: flex;
@@ -683,14 +684,14 @@ footer {
   font-size: 10px;
   background: #f5f5f5;
   border-top: 1px solid rgba(191, 191, 191, 0.5); }
-  /* line 56, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+  /* line 56, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
   .footer-bar a {
     color: #5fcdaa; }
-  /* line 59, /Users/elbalneario/Documents/diyclubspain.github.io/css/_footer.scss */
+  /* line 59, /Users/verdu/Documents/diyclubspain.github.io/css/_footer.scss */
   .footer-bar i {
     margin-left: 5px; }
 
-/* line 9, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 9, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 main {
   min-width: calc(100% - 250px);
   margin: 140px 250px 80px;
@@ -700,7 +701,7 @@ main {
   padding: 40px 60px 0;
   transition: 0s; }
 
-/* line 19, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 19, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ultimo {
   width: 100%;
   max-width: 1100px;
@@ -714,13 +715,14 @@ main {
   overflow: hidden;
   cursor: pointer;
   padding: 40px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 4px 10px 0 rgba(0, 0, 0, 0.4), inset 0 0 5px 1px rgba(255, 255, 255, 0.7); }
-  /* line 33, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.7); }
+  /* line 33, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .ultimo:hover {
-    transform: scale(1.02, 1.02) rotate(-2deg) translateY(-20px);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.9), 0 10px 15px 0 rgba(0, 0, 0, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.7); }
+    transform: scale(1.02, 1.02) rotate(-1deg);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 1px rgba(255, 255, 255, 0.7);
+    transform-origin: top; }
 
-/* line 39, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 40, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ultimo-img {
   height: 100%;
   overflow: hidden;
@@ -729,11 +731,11 @@ main {
   transform-origin: right;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px; }
-  /* line 47, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 48, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .ultimo-img img {
     height: 100%; }
 
-/* line 52, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 53, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ideas-frescas {
   width: 45%;
   display: flex;
@@ -742,13 +744,13 @@ main {
   padding: 40px;
   margin-left: 20px;
   font-size: 14px; }
-  /* line 60, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 61, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .ideas-frescas h1 {
     font-size: 60px;
     line-height: .8;
     margin-bottom: 20px; }
 
-/* line 67, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 68, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .all-content {
   max-width: 1100px;
   display: flex;
@@ -762,21 +764,21 @@ main {
   box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, 0.2); }
 
 @media only screen and (max-width: 1556px) {
-  /* line 81, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 82, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content, .ultimo {
     max-width: 835px; } }
 
 @media only screen and (max-width: 1296px) {
-  /* line 87, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 88, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content, .ultimo {
     max-width: 575px; } }
 
 @media only screen and (max-width: 786px) {
-  /* line 93, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 94, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content, .ultimo {
     max-width: 320px; } }
 
-/* line 98, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 99, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .pages {
   display: flex;
   justify-content: center;
@@ -786,7 +788,7 @@ main {
   padding: 4px 3px;
   margin: 30px 0; }
 
-/* line 108, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 109, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .num-pages {
   width: 25px;
   height: 25px;
@@ -796,17 +798,17 @@ main {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 0 2px; }
-  /* line 117, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 118, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .num-pages:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 123, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 124, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .page-activa {
   background: #5fcdaa;
   color: #fff; }
 
-/* line 128, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 129, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .icon-pages {
   width: 25px;
   height: 25px;
@@ -817,12 +819,12 @@ main {
   color: #bfbfbf;
   border-radius: 20px;
   margin: 0 2px; }
-  /* line 138, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 139, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .icon-pages:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 144, /Users/elbalneario/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 145, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 #tut-modal {
   display: none; }
 

@@ -29,10 +29,11 @@ main {
     overflow: hidden;
     cursor: pointer;
     padding: 40px;
-    box-shadow: $vol;
+    box-shadow: $volg;
     &:hover {
-        transform: scale(1.02, 1.02) rotate(-2deg) translateY(-20px);
-        box-shadow: $hvol;
+        transform: scale(1.02, 1.02) rotate(-1deg);
+        box-shadow: $hvolg;
+        transform-origin: top;
     }
 }
 
