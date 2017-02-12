@@ -13,8 +13,8 @@
     margin: 10px;
     transition: 0s;
     &:hover {
-        transform: perspective(1200px) rotateX(5deg) scale(1.03, 1.03) translateY(-10px);
-        box-shadow: $hvolg;
+        transform: perspective(1200px) rotateX(5deg) scale(1.02, 1.02) translateY(-5px);
+        box-shadow: $hvol;
         transition: .2s;
     }
 }
