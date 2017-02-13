@@ -39,7 +39,7 @@
         <div class="logo">
             <img src="img/logo.svg" alt="logo">
         </div>
-        <fieldset class="filter-group categorias checkboxes">
+        <div role="group" class="filter-group categorias checkboxes">
             <button type="button" class="filter-eye"><i class="fa fa-eye"></i></button>
             <input type="checkbox" value=".segunda" id="i-segunda">
             <label for="i-segunda" class="categoria"><img src="img/segunda-vida.png" alt="icon">Segunda Vida</label>
@@ -53,7 +53,7 @@
             <label for="i-decoracion" class="categoria"><img src="img/decoracion.png" alt="icon">Decoración</label>
             <input type="checkbox" value=".otras" id="i-otras">
             <label for="i-otras" class="categoria"><img src="img/otras-ideas.png" alt="icon">Otras Ideas</label>
-        </fieldset>
+        </div>
 
         <div class="ordenar">
             <select name="Orden" id="order">
@@ -66,20 +66,22 @@
             </select>
         </div>
         <div class="filter-x"><i class="fa fa-times"></i></div>
-        <fieldset class="filter-group dificultad checkboxes">
+        <div role="group" class="filter-group dificultad checkboxes">
             <input type="checkbox" value=".Dificil" id="i-dificil">
             <label for="i-dificil" class="d-btn">Dificil</label>
             <input type="checkbox" value=".Medio" id="i-medio">
             <label for="i-medio" class="d-btn">Medio</label>
             <input type="checkbox" value=".Fácil" id="i-facil">
             <label for="i-facil" class="d-btn">Fácil</label>
-        </fieldset>
+        </div>
     </nav>
     <nav class="user-bar">
-        <fieldset class="filter-group search-bar search">
+        <div role="group" class="filter-group search-bar search">
             <input type="text" placeholder="&#xF002; Busca tutoriales, articulos, tiendas..." class="search-input">
-            <img src="img/avatar.png" alt="user" class="user-btn">
-        </fieldset>
+            <div class="signup">Registrate</div>
+            <div class="signin">Inicia Sesion</div>
+            <img src="img/avatar.png" alt="user" class="user-btn user-hide">
+        </div>
         <div class="sections">
             <div id="btn-tutoriales" class="section">Tutoriales</div>
             <div id="btn-articulos" class="section">Articulos</div>
@@ -179,7 +181,10 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+    <script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <script type="text/javascript" src="inits.js"></script>
     <script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
     <script type="text/javascript" src="lib/filter.js"></script>
     <script type="text/javascript" src="lib/firstVisit.js"></script>
@@ -196,12 +201,6 @@
         })();
     </script>
     <script type="text/javascript" src="js/tutoriales.js"></script>
-    <script>
-        $('#bienvenidos').firstVisitPopup({
-            cookieName: 'homepage',
-            showAgainSelector: '#show-message'
-        });
-    </script>
 
 </body>
 

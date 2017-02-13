@@ -169,3 +169,7 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
     ]
 
 }]);
+
+$('.search').on('click', function(){
+    $(this).css('display', 'flex');
+});

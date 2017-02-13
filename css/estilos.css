@@ -255,14 +255,21 @@ select {
 .search-bar {
   width: 100%;
   height: 80px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   padding: 0 10px; }
-  /* line 22, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
-  .search-bar img {
-    transform: translateY(10px); }
+  /* line 24, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  .search-bar div {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px; }
 
-/* line 27, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 43, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-input {
   width: 70%;
   height: 40px;
@@ -274,21 +281,25 @@ select {
   border-radius: 20px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
   outline: none; }
-  /* line 38, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 54, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .search-input:hover {
     border-color: #5fcdaa; }
 
-/* line 43, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 59, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-btn {
   height: 30px;
   margin: 0 10px;
   opacity: 1; }
-  /* line 47, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 63, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .user-btn:hover {
     transform: scale(2, 2);
     transform-origin: top left; }
 
-/* line 53, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 69, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+.user-hide {
+  display: none; }
+
+/* line 73, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .sections {
   display: flex;
   justify-content: center;
@@ -300,7 +311,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 65, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 85, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section {
   text-align: center;
   padding: 7px;
@@ -308,12 +319,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 6px 2px; }
-  /* line 72, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 92, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .section:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 78, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 98, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section-selected {
   background: #5fcdaa;
   color: #fff; }
