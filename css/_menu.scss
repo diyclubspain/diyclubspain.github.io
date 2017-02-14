@@ -28,20 +28,18 @@
         align-items: center;
         font-size: 12px;
         padding: 10px;
+        &:hover {
+            color: $diy;
+        }
+        i {
+            margin-right: 5px;
+            font-size: 14px;
+        }
     }
-    img {
-    }
-}
-
-.signup {
-}
-
-.signin {
-
 }
 
 .search-input {
-    width: 70%;
+    width: 65%;
     height: 40px;
     background: #fff;
     padding: 10px 20px;
@@ -57,11 +55,11 @@
 }
 
 .user-btn {
-    height: 30px;
+    height: 40px;
     margin: 0 10px;
     opacity: 1;
     &:hover {
-        transform: scale(2, 2);
+        transform: scale(1.5, 1.5);
         transform-origin: top left
     }
 }
