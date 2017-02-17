@@ -11,10 +11,7 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
     $scope.openModal = function (event) {
         
-        $('.tut-modal').animate({
-            top: 0,
-            opacity: 1
-        }, "fast");
+        $('.tut-modal').removeClass('tut-modal-hide');
         $('main, nav, footer').fadeTo('fast', .3);
 
         var $videoToModal = $(event.currentTarget).children('.modal-video').attr('ng-src');

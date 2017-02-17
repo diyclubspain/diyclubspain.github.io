@@ -249,9 +249,13 @@ select {
   background: rgba(255, 255, 255, 0.9);
   z-index: 998;
   box-shadow: 0 0 50px 50px rgba(255, 255, 255, 0.9);
-  transition: 0s; }
+  transition: .5s; }
 
 /* line 16, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+.user-bar-hide {
+  top: -200px; }
+
+/* line 20, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-bar {
   width: 100%;
   height: 80px;
@@ -260,7 +264,7 @@ select {
   align-items: center;
   margin-top: 20px;
   padding: 0 10px; }
-  /* line 24, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 28, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .search-bar div {
     height: 40px;
     display: flex;
@@ -268,15 +272,15 @@ select {
     align-items: center;
     font-size: 12px;
     padding: 10px; }
-    /* line 31, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+    /* line 35, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
     .search-bar div:hover {
       color: #5fcdaa; }
-    /* line 34, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+    /* line 38, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
     .search-bar div i {
       margin-right: 5px;
       font-size: 14px; }
 
-/* line 41, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 45, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-input {
   width: 65%;
   height: 40px;
@@ -288,25 +292,25 @@ select {
   border-radius: 20px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
   outline: none; }
-  /* line 52, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 56, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .search-input:hover {
     border-color: #5fcdaa; }
 
-/* line 57, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 61, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-btn {
   height: 40px;
   margin: 0 10px;
   opacity: 1; }
-  /* line 61, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 65, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .user-btn:hover {
     transform: scale(1.5, 1.5);
     transform-origin: top left; }
 
-/* line 67, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 71, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-hide {
   display: none; }
 
-/* line 71, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 75, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .sections {
   display: flex;
   justify-content: center;
@@ -318,7 +322,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 83, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 87, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section {
   text-align: center;
   padding: 7px;
@@ -326,12 +330,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 6px 2px; }
-  /* line 90, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 94, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
   .section:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 96, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 100, /Users/verdu/Documents/diyclubspain.github.io/css/_menu.scss */
 .section-selected {
   background: #5fcdaa;
   color: #fff; }
@@ -514,7 +518,7 @@ select {
 /* line 1, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-modal {
   position: fixed;
-  top: -1000px;
+  top: 0px;
   right: 0;
   width: 100%;
   height: 100%;
@@ -522,10 +526,15 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: 0s; }
+  opacity: 1;
+  transition: .5s; }
 
 /* line 15, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+.tut-modal-hide {
+  top: -1000px;
+  opacity: 0; }
+
+/* line 20, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-container {
   width: 90%;
   max-width: 1440px;
@@ -537,7 +546,7 @@ select {
   border-radius: 10px;
   overflow: hidden; }
 
-/* line 27, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 32, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .video-tutorial {
   width: 70%;
   height: calc(100% + 1px);
@@ -545,16 +554,16 @@ select {
   flex-direction: column;
   align-items: center; }
 
-/* line 35, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 40, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .pasos {
   display: none; }
 
-/* line 39, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 44, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-video {
   width: 100%;
   height: 100%; }
 
-/* line 44, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 49, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-box {
   position: relative;
   width: 30%;
@@ -563,7 +572,7 @@ select {
   align-items: center;
   padding: 50px 0 20px 0; }
 
-/* line 53, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 58, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .modal-cerrar {
   position: absolute;
   top: 20px;
@@ -575,49 +584,49 @@ select {
   z-index: 9999;
   font-size: 20px;
   opacity: 1; }
-  /* line 64, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 69, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .modal-cerrar:hover {
     opacity: .5; }
 
-/* line 69, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 74, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .box-content {
   width: 100%;
   height: calc(100% - 40px);
   overflow-y: auto;
   padding: 0 40px 20px; }
 
-/* line 76, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 81, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-titulo {
   font-size: 25px;
   margin-bottom: 20px; }
 
 @media only screen and (max-width: 1280px) {
-  /* line 82, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 87, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .tut-titulo {
     font-size: 25px; } }
 
-/* line 87, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 92, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .tut-descripcion {
   font-size: 12px;
   padding: 10px 0;
   border-top: 1px solid rgba(191, 191, 191, 0.5);
   border-bottom: 1px solid rgba(191, 191, 191, 0.5); }
 
-/* line 94, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 99, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .materiales-box {
   width: 100%;
   margin-top: 20px; }
-  /* line 97, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 102, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .materiales-box h3 {
     font-size: 16px;
     margin-bottom: 10px; }
-  /* line 101, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 106, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .materiales-box li {
     width: 90%;
     margin-left: 10%;
     font-size: 12px; }
 
-/* line 108, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 113, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .bm-contenedor {
   display: flex;
   justify-content: center;
@@ -629,7 +638,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 120, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 125, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .btn-modal {
   text-align: center;
   padding: 7px;
@@ -637,12 +646,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 4px 2px; }
-  /* line 127, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+  /* line 132, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
   .btn-modal:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 133, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
+/* line 138, /Users/verdu/Documents/diyclubspain.github.io/css/_tut-modal.scss */
 .bm-activo {
   background: #5fcdaa;
   color: #fff; }
