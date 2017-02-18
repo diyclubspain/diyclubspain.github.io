@@ -75,33 +75,13 @@
             <label for="i-facil" class="d-btn">Fácil</label>
         </div>
     </nav>
-    <nav class="user-bar">
-        <div role="group" class="filter-group search-bar search">
-            <input type="text" placeholder="&#xF002; Busca tutoriales, articulos, tiendas..." class="search-input">
-            <div class="signup"><i class="fa fa-user-plus"></i>Regístrate</div>
-            <div class="signin"><i class="fa fa-sign-in"></i>Entra</div>
-            <img src="img/avatar.png" alt="user" class="user-btn user-hide">
-        </div>
-        <div class="sections">
-            <div id="btn-tutoriales" class="section">Tutoriales</div>
-            <div id="btn-articulos" class="section">Articulos</div>
-            <div id="btn-masters" class="section">Masters</div>
-            <div id="btn-tiendas" class="section">Tiendas</div>
-        </div>
+    <nav class="user-bar" ng-include="'menu.html'">
     </nav>
 
     <div>
         <main class="page-tutoriales">
 
-            <article class="ultimo">
-                <div class="ultimo-img">
-                    <img src="img/back.jpeg" alt="ultimo">
-                </div>
-                <div class="ideas-frescas">
-                    <h1>Ideas Frescas</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde modi aliquam quia temporibus eum fugit, sit inventore consectetur!</p>
-                </div>
-            </article>
+            <article class="ultimo" ng-include="'ultimo.html'"></article>
 
             <article id="Container" class="container all-content">
 
@@ -158,30 +138,12 @@
     </footer>
 
     <!-- Modal -->
-    <div class="tut-modal tut-modal-hide">
-        <div class="tut-container">
-            <div class="video-tutorial">
-                <iframe class="tut-video" src="" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="tut-box">
-                <div class="modal-cerrar"><i class="fa fa-times"></i></div>
-                <div class="box-content">
-                    <h1 class="tut-titulo"></h1>
-                    <p class="tut-descripcion"></p>
-                    <ul class="materiales-box"></ul>
-                </div>
-                <div class="bm-contenedor">
-                    <a href="#" class="btn-modal bm-activo">DESCRIPCION</a>
-                    <a href="#" class="btn-modal">PASOS</a>
-                    <a href="#" class="btn-modal">COMENTARIOS</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="tut-modal tut-modal-hide" ng-include="'modal.html'"></div>
 
     <!-- Scripts -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-route.js"></script>
     <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
     <script type="text/javascript" src="inits.js"></script>
     <script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>

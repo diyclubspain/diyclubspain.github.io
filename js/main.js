@@ -14,13 +14,16 @@ $(window).scroll(function () {
 
 $('.ultimo').on('click', function () {
     $('.tut-modal').removeClass('tut-modal-hide');
-    $('main, nav, footer').fadeTo('fast', .3);
+    $('main, nav, footer').css('opacity', '.2');
 });
 
 $('.modal-cerrar').on('click', function () {
     $('.tut-modal').addClass('tut-modal-hide');
-    $('main, nav, footer').fadeTo('fast', 1);
+    $('main, nav, footer').css('opacity', '1')
     $('.tut-video').removeAttr('src');
+    $('.tut-titulo').empty().text();
+    $('.tut-descripcion').empty().text();
+    $('.materiales-box').empty().html();
 });
 
 $(document).ready(function () {

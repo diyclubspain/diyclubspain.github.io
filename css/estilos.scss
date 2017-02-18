@@ -30,11 +30,9 @@ main {
     cursor: pointer;
     padding: 40px;
     box-shadow: $volg;
-    &:hover {
-        transform: scale(1.02, 1.02) rotate(-1deg);
-        box-shadow: $hvolg;
-        transform-origin: top;
-    }
+    transform: scale(1.02, 1.02) rotate(-1deg);
+    box-shadow: $hvolg;
+    transform-origin: top;
 }
 
 .ultimo-img {

@@ -1,4 +1,5 @@
-var tutorialesApp = angular.module('tutorialesApp', []);
+var tutorialesApp = angular.module('tutorialesApp', ['ngRoute']);
+
 
 //Verificador iframe URL's
 tutorialesApp.filter('trustAsResourceUrl', ['$sce', function ($sce) {
@@ -7,12 +8,13 @@ tutorialesApp.filter('trustAsResourceUrl', ['$sce', function ($sce) {
     };
     }]);
 
+
 tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
     $scope.openModal = function (event) {
-        
+
         $('.tut-modal').removeClass('tut-modal-hide');
-        $('main, nav, footer').fadeTo('fast', .3);
+        $('main, nav, footer').css('opacity', '.2');
 
         var $videoToModal = $(event.currentTarget).children('.modal-video').attr('ng-src');
         var $tituloToModal = $(event.currentTarget).children('.modal-titulo').text();
@@ -42,7 +44,7 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
             "materiales": ['Madera o listones', 'Cola blanca', 'Pintura a la tiza', 'Cartulina de color', 'Papel de scrapbook', 'Cinta de doble cara', 'Pegamento', 'Letras troqueladas', 'Adornos troquelados', 'Glossy accent'],
         },
-        
+
         {
             "imagen": "BASE-MINI-ALBUM-FIMIKI-PAPEL",
             "categoria": "papeles",
@@ -57,7 +59,7 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
             "materiales": ['4x cartulinas Din A4', 'Lápiz', 'Regla', 'Tijeras/guillotina', 'Plegadera', 'Cinta de doble cara'],
         },
-        
+
         {
             "imagen": "COSIDO-COPTO---PAPEL---HAPPY-PROJECTS-DESIGN",
             "categoria": "papeles",
@@ -162,11 +164,11 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
             "materiales": ['Hojas tamaño din A4', 'Cúter', 'Regla metálica', 'Plegadera', 'Lápiz', 'Punzón', 'Hilo de algodón', 'Aguja de ojal grande'],
         },
-        
+
     ]
 
 }]);
 
-$('.search').on('click', function(){
+$('.search').on('click', function () {
     $(this).css('display', 'flex');
 });

@@ -1,6 +1,6 @@
 .tut-modal {
     position: fixed;
-    top: 0px;
+    top: 0;
     right: 0;
     width: 100%;
     height: 100%;
@@ -9,12 +9,14 @@
     justify-content: center;
     align-items: center;
     opacity: 1;
-    transition: .5s;
+    transition: .3s;
+    transform: scale(1, 1);
 }
 
 .tut-modal-hide {
-    top: -1000px;
+    z-index: -1;
     opacity: 0;
+    transform: scale(.7, .7);
 }
 
 .tut-container {

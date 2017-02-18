@@ -1,3 +1,7 @@
+//Init Masonry
+
+
+
 // Init Firebase
 var config = {
     apiKey: "AIzaSyDxSdWG4IdIIFM_Pf80z1Am8-utWYf86G8",
