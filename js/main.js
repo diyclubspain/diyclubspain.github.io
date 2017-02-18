@@ -1,29 +1,26 @@
+var iScrollPos = 0;
+
+$(window).scroll(function () {
+    var iCurScrollPos = $(this).scrollTop();
+    if (iCurScrollPos > iScrollPos) {
+        //Scrolling Down
+        $('.user-bar').addClass('user-bar-hide');
+    } else {
+        //Scrolling Up
+        $('.user-bar').removeClass('user-bar-hide');
+    }
+    iScrollPos = iCurScrollPos;
+});
+
 $('.ultimo').on('click', function () {
-    $('.tut-modal').animate({
-        top: 0,
-        opacity: 1
-    }, "fast");
+    $('.tut-modal').removeClass('tut-modal-hide');
     $('main, nav, footer').fadeTo('fast', .3);
 });
 
 $('.modal-cerrar').on('click', function () {
-    $('.tut-modal').animate({
-        top: "-1000",
-        opacity: 0
-    }, "fast");
+    $('.tut-modal').addClass('tut-modal-hide');
     $('main, nav, footer').fadeTo('fast', 1);
     $('.tut-video').removeAttr('src');
-});
-
-var lastScroll = 0;
-$(window).scroll(function (event) {
-    var st = $(this).scrollTop();
-    if (st > lastScroll) {
-        $('.user-bar').slideUp("fast");
-    } else {
-        $('.user-bar').slideDown("fast");
-    }
-    lastScroll = st;
 });
 
 $(document).ready(function () {
