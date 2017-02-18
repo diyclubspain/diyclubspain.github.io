@@ -31,18 +31,17 @@ $(document).ready(function () {
     $('.page-tutoriales').show().siblings().hide();
 });
 
-$('.btn-modal').on('click', function(){
+$('.btn-modal').on('click', function () {
 
     $(this).addClass('bm-activo').siblings().removeClass('bm-activo');
 
-    if($('.md').hasClass('bm-activo')){
+    if ($('.md').hasClass('bm-activo')) {
         $('.b-descripcion').addClass('box-activa').siblings().removeClass('box-activa');
     } else
-    if ($('.mp').hasClass('bm-activo')){
+    if ($('.mp').hasClass('bm-activo')) {
         $('.b-pasos').addClass('box-activa').siblings().removeClass('box-activa');
     } else
-    if ($('.mc').hasClass('bm-activo')){
-        $('.b-comentarios
-          ').addClass('box-activa').siblings().removeClass('box-activa');
+    if ($('.mc').hasClass('bm-activo')) {
+        $('.b-comentarios').addClass('box - activa ').siblings().removeClass('box-activa');
     }
-})
+});
