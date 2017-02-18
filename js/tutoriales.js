@@ -1,4 +1,4 @@
-var tutorialesApp = angular.module('tutorialesApp', ['ngRoute']);
+var tutorialesApp = angular.module('tutorialesApp', []);
 
 
 //Verificador iframe URL's

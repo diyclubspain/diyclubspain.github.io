@@ -80,6 +80,14 @@
     padding: 0 40px 20px;
 }
 
+.b-descripcion, .b-pasos, .b-comentarios {
+    display: none;
+}
+
+.box-activa {
+    display: inherit;
+}
+
 .tut-titulo {
     font-size: 25px;
     margin-bottom: 20px;
