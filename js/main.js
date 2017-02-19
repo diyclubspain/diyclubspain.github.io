@@ -19,7 +19,8 @@ $('.ultimo').on('click', function () {
 
 $('.modal-cerrar').on('click', function () {
     $('.tut-modal').addClass('tut-modal-hide');
-    $('main, nav, footer').css('opacity', '1')
+    $('.signup-modal').addClass('sm-hide');
+    $('main, nav, footer').css('opacity', '1');
     $('.tut-video').removeAttr('src');
     $('.tut-titulo').empty().text();
     $('.tut-descripcion').empty().text();
@@ -42,6 +43,11 @@ $('.btn-modal').on('click', function () {
         $('.b-pasos').addClass('box-activa').siblings().removeClass('box-activa');
     } else
     if ($('.mc').hasClass('bm-activo')) {
-        $('.b-comentarios').addClass('box - activa ').siblings().removeClass('box-activa');
+        $('.b-comentarios').addClass('box-activa').siblings().removeClass('box-activa');
     }
+});
+
+$('.signup').on('click', function () {
+    $('.signup-modal').removeClass('sm-hide');
+    $('main, nav, footer').css('opacity', '.2');
 });

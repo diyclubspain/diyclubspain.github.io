@@ -18,44 +18,42 @@
 }
 
 .search-bar {
-    width: 100%;
-    height: 80px;
+    width: 75%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    padding: 0 10px;
+    background: #fff;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 6px;
+    box-shadow: inset 0 0 5px 0 rgba(#000, .2);
+    border: 1px solid $line;
     div {
-        height: 40px;
+        height: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 12px;
         padding: 10px;
+        transition: 0s;
         &:hover {
-            color: $diy;
+            background: $diy;
+            color: #fff;
+            border-radius: 20px;
         }
-        i {
-            margin-right: 5px;
-            font-size: 14px;
+        *:hover {
+            color: #fff;
         }
     }
 }
 
 .search-input {
-    width: 65%;
-    height: 40px;
-    background: #fff;
+    width: 100%;
+    height: 35px;
+    background: transparent;
     padding: 10px 20px;
     font-family: $base, FontAwesome;
     font-size: 15px;
-    border: 1px solid $line;
-    border-radius: 20px;
-    box-shadow: inset 0 0 5px 0 rgba(#000, .2);
+    border: none;
     outline: none;
-    &:hover {
-        border-color: $diy;
-    }
 }
 
 .user-btn {
