@@ -265,25 +265,8 @@ select {
   padding: 6px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(191, 191, 191, 0.5); }
-  /* line 29, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
-  .search-bar div {
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    padding: 10px;
-    transition: 0s; }
-    /* line 37, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
-    .search-bar div:hover {
-      background: #5fcdaa;
-      color: #fff;
-      border-radius: 20px; }
-    /* line 42, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
-    .search-bar div *:hover {
-      color: #fff; }
 
-/* line 48, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 31, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .search-input {
   width: 100%;
   height: 35px;
@@ -294,21 +277,37 @@ select {
   border: none;
   outline: none; }
 
-/* line 59, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 42, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+.signup, .signin {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto Mono, FontAwesome;
+  font-size: 12px;
+  padding: 10px;
+  transition: 0s; }
+  /* line 51, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  .signup:hover, .signin:hover {
+    background: #5fcdaa;
+    color: #fff;
+    border-radius: 20px; }
+
+/* line 58, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-btn {
   height: 40px;
   margin: 0 10px;
   opacity: 1; }
-  /* line 63, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 62, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
   .user-btn:hover {
     transform: scale(1.5, 1.5);
     transform-origin: top left; }
 
-/* line 69, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 68, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .user-hide {
   display: none; }
 
-/* line 73, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 72, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .sections {
   height: 40px;
   display: flex;
@@ -321,7 +320,7 @@ select {
   margi: 10px 0;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 86, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 85, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .section {
   text-align: center;
   padding: 7px;
@@ -329,12 +328,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 6px 2px; }
-  /* line 93, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+  /* line 92, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
   .section:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 99, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
+/* line 98, /Users/elbalneario/Documents/diyclubspain.github.io/css/_menu.scss */
 .section-selected {
   background: #5fcdaa;
   color: #fff; }

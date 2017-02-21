@@ -11,6 +11,7 @@ firebase.initializeApp(config);
 
 const txtEmail = document.getElementById('txtEmail');
 const txtPass = document.getElementById('txtPass');
+const txtName = document.getElementById('txtName');
 const btnSignup = document.getElementById('btnSignup');
 const btnSignin = document.getElementById('btnSignin');
 const btnLogout = document.getElementById('btnLogout');
@@ -25,6 +26,20 @@ btnSignin.addEventListener('click', e => {
     //Signin
     const promise = auth.signInWithEmailAndPassword(email, pass);
     promise.catch(e => console.log(e.message));
+
+});
+$('.signup-modal').keyup(function (e) {
+
+    if ($("input").is(":focus") && (e.keyCode == 13)) {
+
+        //Get email and pass
+        const email = txtEmail.value;
+        const pass = txtPass.value;
+        const auth = firebase.auth();
+        //Signin
+        const promise = auth.createUserWithEmailAndPassword(email, pass);
+        promise.catch(e => console.log(e.message));
+    }
 
 });
 
@@ -44,27 +59,4 @@ btnSignup.addEventListener('click', e => {
 //Add email logout event
 btnLogout.addEventListener('click', e => {
     firebase.auth().signOut();
-});
-
-//Add realtime listener
-firebase.auth().onAuthStateChanged(firebaseUser => {
-
-    //Usr conectado
-    if(firebaseUser) {
-
-        console.log(firebaseUser);
-        btnLogout.classList.remove('t-hide');
-        $('.ultimo').show();
-
-    }
-
-    //Usr conectado
-    else {
-
-        console.log('Not auth');
-        btnLogout.classList.add('t-hide');
-        $('.ultimo').hide();
-
-    }
-
 });
