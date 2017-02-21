@@ -49,12 +49,22 @@ btnLogout.addEventListener('click', e => {
 //Add realtime listener
 firebase.auth().onAuthStateChanged(firebaseUser => {
 
+    //Usr conectado
     if(firebaseUser) {
+
         console.log(firebaseUser);
         btnLogout.classList.remove('t-hide');
-    } else {
+        $('.ultimo').show();
+
+    }
+
+    //Usr conectado
+    else {
+
         console.log('Not auth');
         btnLogout.classList.add('t-hide');
+        $('.ultimo').hide();
+
     }
 
 });
