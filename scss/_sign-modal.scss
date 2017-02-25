@@ -1,0 +1,129 @@
+.signup-modal, .login-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: .3s;
+    transform: scale(1, 1);
+}
+
+.sm-hide {
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    transform: scale(.7, .7);
+}
+
+.signup-container {
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(#000, .2);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    input {
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
+
+//Signup
+.left-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $diy;
+    padding: 40px;
+    box-shadow: 0 0 15px 0 rgba(#000, .1);
+    h1 {
+        color: #fff;
+    }
+    h3 {
+        color: #fff;
+        font-size: 14px;
+        margin-top: 20px;
+        font-weight: 100;
+    }
+}
+
+.right-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+#txtEmail, #txtPass {
+    width: 200px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $line;
+    margin: 5px;
+}
+
+#btnSignup {
+    background: $diy;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin: 20px 0 0;
+    cursor: pointer;
+}
+
+//Login
+.login-container {
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(#000, .2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    input {
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
+
+.up-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: $diy;
+    h3 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+}
+
+.down-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#btnSignin {
+    background: $diy;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    margin: 20px 0 0;
+    cursor: pointer;
+}

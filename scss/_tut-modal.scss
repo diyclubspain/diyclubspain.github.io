@@ -14,6 +14,7 @@
 }
 
 .tut-modal-hide {
+    position: fixed;
     z-index: -1;
     opacity: 0;
     transform: scale(.7, .7);
@@ -58,18 +59,26 @@
 }
 
 .modal-cerrar {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index: 9999;
+    z-index: -1;
     font-size: 20px;
     opacity: 1;
-    &:hover {
-        opacity: .5;
+    cursor: pointer;
+    i {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        &:hover {
+            opacity: .5;
+        }
     }
 }
 

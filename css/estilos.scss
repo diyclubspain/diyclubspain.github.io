@@ -1,11 +1,11 @@
-@import "_base";
-@import "_bienvenidos";
-@import "_filtro";
-@import "_menu";
-@import "_tarjetas";
-@import "_tut-modal";
-@import "_sign-modal";
-@import "_footer";
+@import "../scss/_base";
+@import "../scss/_bienvenidos";
+@import "../scss/_filtro";
+@import "../scss/_menu";
+@import "../scss/_tarjetas";
+@import "../scss/_tut-modal";
+@import "../scss/_sign-modal";
+@import "../scss/_footer";
 
 main {
     min-width: calc(100% - 250px);

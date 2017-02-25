@@ -5,10 +5,10 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     if(firebaseUser) {
 
         //cambiar a ui user conected
-        btnLogout.classList.remove('t-hide');
 
-        //cerrar sign modal
-        $('.signup-modal').addClass('sm-hide');
+
+        //cerrar sign modals
+        $('.signup-modal, .login-modal').addClass('sm-hide');
         $('main, nav, footer').css('opacity', '1');
 
 
@@ -18,7 +18,6 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
     else {
 
         //cambiar a ui user disconnected
-        btnLogout.classList.add('t-hide');
     }
 
 });

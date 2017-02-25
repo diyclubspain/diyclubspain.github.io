@@ -3,11 +3,18 @@ var tutorialesApp = angular.module('tutorialesApp', []);
 
 //Verificador iframe URL's
 tutorialesApp.filter('trustAsResourceUrl', ['$sce', function ($sce) {
-    return function (val) {
+
+    return function(val) {
         return $sce.trustAsResourceUrl(val);
     };
-    }]);
 
+}]);
+
+tutorialesApp.run(function(){
+
+
+
+});
 
 tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
@@ -168,7 +175,3 @@ tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
     ]
 
 }]);
-
-$('.search').on('click', function () {
-    $(this).css('display', 'flex');
-});

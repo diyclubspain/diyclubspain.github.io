@@ -9,7 +9,7 @@
     align-items: center;
     background: rgba($back, .9);
     z-index: 998;
-    box-shadow: 0 0 50px 20px rgba($back, .9);
+    box-shadow: 0 0 30px 30px rgba($back, .9);
     transition: .5s;
 }
 
@@ -30,7 +30,7 @@
 
 .search-input {
     width: 100%;
-    height: 35px;
+    height: 30px;
     background: transparent;
     padding: 10px 20px;
     font-family: $base, FontAwesome;
@@ -39,8 +39,8 @@
     outline: none;
 }
 
-.signup, .signin {
-    height: 35px;
+.signup, .login {
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
