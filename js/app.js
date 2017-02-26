@@ -13,8 +13,20 @@ const txtEmail = document.getElementById('txtEmail');
 const txtPass = document.getElementById('txtPass');
 const txtName = document.getElementById('txtName');
 const btnSignup = document.getElementById('btnSignup');
-const btnSignin = document.getElementById('btnSignin');
+const btnLogin = document.getElementById('btnLogin');
 const btnLogout = document.getElementById('btnLogout');
+
+//Add login event
+btnLogin.addEventListener('click', e => {
+
+    //Get email and pass
+    const email = txtEmail.value;
+    const pass = txtPass.value;
+    const auth = firebase.auth();
+    //Signin
+    const promise = auth.signInWithEmailAndPassword(email, pass);
+
+});
 
 //Add signup event
 btnSignup.addEventListener('click', e => {
@@ -25,20 +37,6 @@ btnSignup.addEventListener('click', e => {
     const auth = firebase.auth();
     //Signin
     const promise = auth.createUserWithEmailAndPassword(email, pass);
-    promise.catch(e => alert('Usuario creado'));
-
-});
-
-//Add login event
-btnSignin.addEventListener('click', e => {
-
-    //Get email and pass
-    const email = txtEmail.value;
-    const pass = txtPass.value;
-    const auth = firebase.auth();
-    //Signin
-    const promise = auth.signInWithEmailAndPassword(email, pass);
-    promise.catch(e => alert('Usuario regitrado'));
 
 });
 

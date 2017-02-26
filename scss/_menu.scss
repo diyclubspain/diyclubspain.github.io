@@ -37,9 +37,10 @@
     font-size: 15px;
     border: none;
     outline: none;
+    transition: .2s;
 }
 
-.signup, .login {
+.signup, .login, .logout, .user-favs {
     height: 30px;
     display: flex;
     justify-content: center;
@@ -47,7 +48,7 @@
     font-family: $base, FontAwesome;
     font-size: 12px;
     padding: 10px;
-    transition: 0s;
+    transition: .2s;
     &:hover {
         background: $diy;
         color: #fff;
@@ -55,18 +56,33 @@
     }
 }
 
+.logout:hover {
+    background: red;
+}
+
 .user-btn {
-    height: 40px;
+    height: 30px;
     margin: 0 10px;
     opacity: 1;
+}
+
+.user-hover {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    transition: .2s;
     &:hover {
-        transform: scale(1.5, 1.5);
-        transform-origin: top left
+        width: 150px;
+        transform: translateX(8px);
+        transform-origin: left
     }
 }
 
 .user-hide {
     display: none;
+    transition: .2s;
 }
 
 .sections {
