@@ -14,9 +14,6 @@ firebase.auth().onAuthStateChanged(firebaseUser => {
         $('.signup-modal, .login-modal').addClass('sm-hide');
         $('main, nav, footer').css('opacity', '1');
 
-        //debug
-        var userDB = firebase.database().ref('users/' + user.email);
-
     }
 
     //Usr DISCONNECTED
