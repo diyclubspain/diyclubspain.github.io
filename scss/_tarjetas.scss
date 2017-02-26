@@ -1,162 +1,163 @@
 .tarjeta {
-    width: 240px;
-    height: 320px;
-    background: no-repeat center;
-    background-size: cover;
-    border-radius: 5px;
-    box-shadow: $vol;
-    border: 1px solid $line;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 10px;
-    transition: 0s;
-    &:hover {
-        transform: perspective(1200px) rotateX(5deg) scale(1.02, 1.02) translateY(-5px);
-        box-shadow: $hvol;
-        transition: .2s;
-    }
+	width: 240px;
+	height: 320px;
+	background: no-repeat center;
+	background-size: cover;
+	border-radius: 5px;
+	box-shadow: $vol;
+	border: 1px solid $line;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10px;
+	transition: 0s;
+	cursor: zoom-in;
+	&:hover {
+		transform: perspective(1200px) rotateX(5deg) scale(1.02, 1.02) translateY(-5px);
+		box-shadow: $hvol;
+		transition: .2s;
+	}
 }
 
 .container .tarjeta {
-    display: none;
+	display: none;
 }
 
 .t-hide {
-    display: none;
+	display: none;
 }
 
 .favorito {
-    color: $back;
-    cursor: pointer;
-    -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.2));
-    filter: url(#drop-shadow);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    margin: 5px 5px 0 0;
+	color: $back;
+	cursor: pointer;
+	-webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.2));
+	filter: url(#drop-shadow);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	margin: 5px 5px 0 0;
 }
 
 .favorito:hover {
-    color: #ff3c3c;
-    transform: scale(1.2, 1.2);
+	color: #ff3c3c;
+	transform: scale(1.2, 1.2);
 }
 
 .fa-content {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .categoria-tarjeta {
-    width: 40px;
-    height: 40px;
-    background-size: 100%;
-    z-index: 1;
-    transform: translate(15px, 80px);
+	width: 40px;
+	height: 40px;
+	background-size: 100%;
+	z-index: 1;
+	transform: translate(15px, 80px);
 }
 
 .segunda {
-    background-image: url('../img/tarjeta-segunda-vida.png');
+	background-image: url('../img/tarjeta-segunda-vida.png');
 }
 
 .papeles {
-    background-image: url('../img/tarjeta-papel.png');
+	background-image: url('../img/tarjeta-papel.png');
 }
 
 .labores {
-    background-image: url('../img/tarjeta-labores.png');
+	background-image: url('../img/tarjeta-labores.png');
 }
 
 .peques {
-    background-image: url('../img/tarjeta-peques.png');
+	background-image: url('../img/tarjeta-peques.png');
 }
 
 .decoracion {
-    background-image: url('../img/tarjeta-decoracion.png');
+	background-image: url('../img/tarjeta-decoracion.png');
 }
 
 .otras {
-    background-image: url('../img/tarjeta-otras-ideas.png');
+	background-image: url('../img/tarjeta-otras-ideas.png');
 }
 
 .caja {
-    width: 100%;
-    background-color: rgba(#fff, .8);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    box-shadow: $vol;
-    &:hover {
-        background-color: rgba(#fff, .95);
-    }
+	width: 100%;
+	background-color: rgba(#fff, .8);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	box-shadow: $vol;
+	&:hover {
+		background-color: rgba(#fff, .95);
+	}
 }
 
 .titulo {
-    font-size: 13px;
-    font-weight: 700;
-    padding: 25px 15px 0 15px;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 25px 15px 0 15px;
 }
 
 .master {
-    font-size: 11px;
-    padding: 5px 0 15px 15px;
-    a {
-        color: #55c4b6;
-        font-style: italic;
-    }
-    &:hover {
-        text-decoration: none;
-    }
-    .fa {
-        margin-left: 10px;
-    }
+	font-size: 11px;
+	padding: 5px 0 15px 15px;
+	a {
+		color: #55c4b6;
+		font-style: italic;
+	}
+	&:hover {
+		text-decoration: none;
+	}
+	.fa {
+		margin-left: 10px;
+	}
 }
 
 .sub-caja {
-    height: 35px;
-    background-color: rgba($back, 0.9);
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid rgba($dark, 0.5);
-    font-size: 10px;
-    text-align: center;
-    align-items: center;
+	height: 35px;
+	background-color: rgba($back, 0.9);
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid rgba($dark, 0.5);
+	font-size: 10px;
+	text-align: center;
+	align-items: center;
 }
 
 .divider-tarjeta {
-    width: 1px;
-    background-color: $line;
-    height: 100%;
+	width: 1px;
+	background-color: $line;
+	height: 100%;
 }
 
 .sub-izq {
-    width: 56%;
-    text-align: left;
-    padding-left: 15px;
+	width: 56%;
+	text-align: left;
+	padding-left: 15px;
 }
 
 .sub-cen,
 .sub-der {
-    width: 22%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	width: 22%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .sub-cen p {
-    font-size: 14px;
-    margin-left: 2px
+	font-size: 14px;
+	margin-left: 2px
 }
 
 .vision {
-    color: $dark;
-    font-size: 12px;
+	color: $dark;
+	font-size: 12px;
 }
 
 .rate {
-    color: $dark;
-    font-size: 12px;
-    margin-left: 10px;
+	color: $dark;
+	font-size: 12px;
+	margin-left: 10px;
 }

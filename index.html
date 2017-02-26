@@ -2,204 +2,203 @@
 <html lang="es" ng-app="tutorialesApp">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" type="image/png" href="img/apple.png">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#5fcdaa">
-    <link rel="icon" type="image/png" href="img/android.png">
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-    <!-- Posicionamiento -->
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="KACTUS studio 2017©">
-    <title>DIYCLUB</title>
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 1038px)" href="css/m-estilos.css">
-    <!-- Fonts/Icons -->
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono:400,400i,700,700i" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="apple-touch-icon" type="image/png" href="img/apple.png">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="theme-color" content="#5fcdaa">
+	<link rel="icon" type="image/png" href="img/android.png">
+	<link rel="icon" href="favicon.png" type="image/x-icon" />
+	<!-- Posicionamiento -->
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="KACTUS studio 2017©">
+	<title>DIYCLUB</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1038px)" href="css/m-estilos.css">
+	<!-- Fonts/Icons -->
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono:400,400i,700,700i" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body ng-controller="TutorialesController">
 
-    <!-- Pop up bienvenida -->
-    <div id="bienvenidos">
-        <div class="bienvenidos-content">
-            <h1>Bienvenidos a</h1>
-            <img src="img/logo.svg" alt="logo">
-        </div>
-    </div>
+	<!-- Pop up bienvenida -->
+	<div id="bienvenidos">
+		<div class="bienvenidos-content">
+			<h1>Bienvenidos a</h1>
+			<img src="img/logo.svg" alt="logo">
+		</div>
+	</div>
 
-    <!-- Menus -->
-    <nav class="filter-menu" id="Filters">
-        <div class="logo">
-            <img src="img/logo.svg" alt="logo">
-        </div>
-        <div role="group" class="filter-group categorias checkboxes">
-            <button type="button" class="filter-eye"><i class="fa fa-eye"></i></button>
-            <input type="checkbox" value=".segunda" id="i-segunda">
-            <label for="i-segunda" class="categoria"><img src="img/segunda-vida.png" alt="icon">Segunda Vida</label>
-            <input type="checkbox" value=".papeles" id="i-papeles">
-            <label for="i-papeles" class="categoria"><img src="img/papeles.png" alt="icon">Papeles</label>
-            <input type="checkbox" value=".labores" id="i-labores">
-            <label for="i-labores" class="categoria"><img src="img/labores.png" alt="icon">Labores</label>
-            <input type="checkbox" value=".peques" id="i-peques">
-            <label for="i-peques" class="categoria"><img src="img/peques.png" alt="icon">Peques</label>
-            <input type="checkbox" value=".decoracion" id="i-decoracion">
-            <label for="i-decoracion" class="categoria"><img src="img/decoracion.png" alt="icon">Decoración</label>
-            <input type="checkbox" value=".otras" id="i-otras">
-            <label for="i-otras" class="categoria"><img src="img/otras-ideas.png" alt="icon">Otras Ideas</label>
-        </div>
+	<!-- Menus -->
+	<nav class="filter-menu" id="Filters">
+		<div class="logo">
+			<img src="img/logo.svg" alt="logo">
+		</div>
+		<div role="group" class="filter-group categorias checkboxes">
+			<button type="button" class="filter-eye"><i class="fa fa-eye"></i></button>
+			<input type="checkbox" value=".segunda" id="i-segunda">
+			<label for="i-segunda" class="categoria"><img src="img/segunda-vida.png" alt="icon">Segunda Vida</label>
+			<input type="checkbox" value=".papeles" id="i-papeles">
+			<label for="i-papeles" class="categoria"><img src="img/papeles.png" alt="icon">Papeles</label>
+			<input type="checkbox" value=".labores" id="i-labores">
+			<label for="i-labores" class="categoria"><img src="img/labores.png" alt="icon">Labores</label>
+			<input type="checkbox" value=".peques" id="i-peques">
+			<label for="i-peques" class="categoria"><img src="img/peques.png" alt="icon">Peques</label>
+			<input type="checkbox" value=".decoracion" id="i-decoracion">
+			<label for="i-decoracion" class="categoria"><img src="img/decoracion.png" alt="icon">Decoración</label>
+			<input type="checkbox" value=".otras" id="i-otras">
+			<label for="i-otras" class="categoria"><img src="img/otras-ideas.png" alt="icon">Otras Ideas</label>
+		</div>
 
-        <div class="ordenar">
-            <select name="Orden" id="order">
-                <option value="Nuevo">Nuevo</option>
-                <option value="Popularidad">Popularidad</option>
-                <option value="Precio +">Precio +</option>
-                <option value="Precio -">Precio -</option>
-                <option value="Dificultad +">Dificultad +</option>
-                <option value="Dificultad -">Dificultad -</option>
-            </select>
-        </div>
-        <div class="filter-x"><i class="fa fa-times"></i></div>
-        <div role="group" class="filter-group dificultad checkboxes">
-            <input type="checkbox" value=".Dificil" id="i-dificil">
-            <label for="i-dificil" class="d-btn">Dificil</label>
-            <input type="checkbox" value=".Medio" id="i-medio">
-            <label for="i-medio" class="d-btn">Medio</label>
-            <input type="checkbox" value=".Fácil" id="i-facil">
-            <label for="i-facil" class="d-btn">Fácil</label>
-        </div>
-    </nav>
-    <nav class="user-bar">
-        <div role="group" class="filter-group search-bar search">
-            <input type="text" placeholder="&#xF002; Busca tutoriales, articulos, tiendas..." class="search-input">
-            <div class="signup">&#xf234;&nbsp;Regístrate</div>
-            <div class="login">&#xf090;&nbsp;Entra</div>
-            <div class="user-hover user-hide">
-                <div id="btnLogout" class="logout">&#xf057;</div>
-                <div class="user-favs">&#xf004;</div>
-                <img src="img/avatar.png" alt="user" class="user-btn">
-            </div>
-        </div>
-        <div class="sections">
-            <a href="#/tutoriales">
-                <div id="btn-tutoriales" class="section">Tutoriales</div>
-            </a>
-            <a href="#/articulos">
-                <div id="btn-articulos" class="section">Articulos</div>
-            </a>
-            <div id="btn-masters" class="section">Masters</div>
-            <div id="btn-tiendas" class="section">Tiendas</div>
-        </div>
-    </nav>
+		<div class="ordenar">
+			<select name="Orden" id="order">
+				<option value="Nuevo">Nuevo</option>
+				<option value="Popularidad">Popularidad</option>
+				<option value="Precio +">Precio +</option>
+				<option value="Precio -">Precio -</option>
+				<option value="Dificultad +">Dificultad +</option>
+				<option value="Dificultad -">Dificultad -</option>
+			</select>
+		</div>
+		<div class="filter-x"><i class="fa fa-times"></i></div>
+		<div role="group" class="filter-group dificultad checkboxes">
+			<input type="checkbox" value=".Dificil" id="i-dificil">
+			<label for="i-dificil" class="d-btn">Dificil</label>
+			<input type="checkbox" value=".Medio" id="i-medio">
+			<label for="i-medio" class="d-btn">Medio</label>
+			<input type="checkbox" value=".Fácil" id="i-facil">
+			<label for="i-facil" class="d-btn">Fácil</label>
+		</div>
+	</nav>
+	<nav class="user-bar">
+		<div role="group" class="filter-group search-bar search">
+			<input type="text" placeholder="&#xF002; Busca tutoriales, articulos, tiendas..." class="search-input">
+			<div class="signup">&#xf234;&nbsp;Regístrate</div>
+			<div class="login">&#xf090;&nbsp;Entra</div>
+			<div class="user-hover user-hide">
+				<div id="btnLogout" class="logout">&#xf057;</div>
+				<div class="user-favs">&#xf004;</div>
+				<img src="img/avatar.png" alt="user" class="user-btn">
+			</div>
+		</div>
+		<div class="sections">
+			<a href="#/tutoriales">
+				<div id="btn-tutoriales" class="section">Tutoriales</div>
+			</a>
+			<a href="#/articulos">
+				<div id="btn-articulos" class="section">Articulos</div>
+			</a>
+			<div id="btn-masters" class="section">Masters</div>
+			<div id="btn-tiendas" class="section">Tiendas</div>
+		</div>
+	</nav>
 
 
-    <div>
-        <main class="page-tutoriales">
+	<div>
+		<main class="page-tutoriales">
 
-            <article class="ultimo t-hide">
-                <div class="ultimo-img">
-                    <img src="img/back.jpeg" alt="ultimo">
-                </div>
-                <div class="ideas-frescas">
-                    <h1>Ideas Frescas</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde modi aliquam quia temporibus eum fugit, sit inventore consectetur!</p>
-                </div>
-            </article>
+			<article class="ultimo t-hide">
+				<div class="ultimo-img">
+					<img src="img/back.jpeg" alt="ultimo">
+				</div>
+				<div class="ideas-frescas">
+					<h1>Ideas Frescas</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde modi aliquam quia temporibus eum fugit, sit inventore consectetur!</p>
+				</div>
+			</article>
 
-            <article id="Container" class="container all-content">
+			<article id="Container" class="container all-content">
 
-                <!-- Mensaje de error -->
-                <div class="fail-message"><span>Ups! no lo tenemos todavía, pero pensaremos en ello!</span></div>
+				<!-- Mensaje de error -->
+				<div class="fail-message"><span>Ups! no lo tenemos todavía, pero pensaremos en ello!</span></div>
 
-                <div ng-click="openModal($event)" class="tarjeta mix {{tutorial.categoria}} {{tutorial.dificultad}}" style="background-image: url(../img/tutoriales/{{tutorial.imagen}}.png);" ng-repeat="tutorial in tutoriales">
-                    <div class="fa-content"><i class="favorito fa fa-heart shadowed"></i></div>
-                    <div>
-                        <div class="categoria-tarjeta {{tutorial.categoria}}"></div>
-                    </div>
-                    <div class="caja">
-                        <div class="titulo">{{tutorial.titulo}}</div>
-                        <div class="master">by <a href="#">{{tutorial.master}}</a></div>
-                        <div class="sub-caja">
-                            <div class="sub-izq"><i class="vision fa fa-eye"></i> 135<i class="rate fa fa-thumbs-o-up"></i> 52</div>
-                            <div class="divider-tarjeta"></div>
-                            <div class="sub-cen">{{tutorial.duracion}}</div>
-                            <div class="divider-tarjeta"></div>
-                            <div class="sub-der">{{tutorial.dificultad}}</div>
-                        </div>
-                    </div>
-                    <iframe class="modal-video t-hide" ng-src="{{tutorial.video | trustAsResourceUrl}}"></iframe>
-                    <h1 class="modal-titulo t-hide">{{tutorial.titulo}}</h1>
-                    <p class="modal-descripcion t-hide">{{tutorial.descripcion}}</p>
-                    <ul class="modal-materiales t-hide">
-                        <h3>Materiales</h3>
-                        <li ng-repeat="material in tutorial.materiales">{{material}}</li>
-                    </ul>
-                </div>
+				<div ng-click="openModal($event)" class="tarjeta mix {{tutorial.categoria}} {{tutorial.dificultad}}" style="background-image: url(../img/tutoriales/{{tutorial.imagen}}.png);" ng-repeat="tutorial in tutoriales">
+					<div class="fa-content"><i class="favorito fa fa-heart shadowed"></i></div>
+					<div>
+						<div class="categoria-tarjeta {{tutorial.categoria}}"></div>
+					</div>
+					<div class="caja">
+						<div class="titulo">{{tutorial.titulo}}</div>
+						<div class="master">by <a href="#">{{tutorial.master}}</a></div>
+						<div class="sub-caja">
+							<div class="sub-izq"><i class="vision fa fa-eye"></i> 135<i class="rate fa fa-thumbs-o-up"></i> 52</div>
+							<div class="divider-tarjeta"></div>
+							<div class="sub-cen">{{tutorial.duracion}}</div>
+							<div class="divider-tarjeta"></div>
+							<div class="sub-der">{{tutorial.dificultad}}</div>
+						</div>
+					</div>
+					<iframe class="modal-video t-hide" ng-src="{{tutorial.video | trustAsResourceUrl}}"></iframe>
+					<h1 class="modal-titulo t-hide">{{tutorial.titulo}}</h1>
+					<p class="modal-descripcion t-hide">{{tutorial.descripcion}}</p>
+					<ul class="modal-materiales t-hide">
+						<h3>Materiales</h3>
+						<li ng-repeat="material in tutorial.materiales">{{material}}</li>
+					</ul>
+				</div>
 
-            </article>
+			</article>
 
-        </main>
+		</main>
 
-    </div>
-    <!-- Tutorial -->
-    <div class="tut-modal tut-modal-hide" ng-include="'components/tutorial-modal.html'"></div>
-    <!-- Signup -->
-    <div class="signup-modal sm-hide">
-        <div class="signup-container">
-            <div class="left-sign">
-                <h1>Bienvenido a DIYCLUB!</h1>
-                <h3>REGISTRATE CON UNOS SIMPLES PASOS</h3>
-            </div>
-            <div class="right-sign">
-                <div class="modal-cerrar"><i class="fa fa-times"></i></div>
-                <input id="txtEmail" type="txt" placeholder="Correo electrónico">
-                <input id="txtPass" type="password" placeholder="Contraseña">
-                <input id="btnSignup" type="button" value="Registrate">
-            </div>
-        </div>
-    </div>
-    <!-- Login -->
-    <div class="login-modal sm-hide">
-        <div class="login-container">
-            <div class="up-sign">
-                <img src="../img/avatar.png" alt="user-img">
-                <h3>Usuario</h3>
-            </div>
-            <div class="down-sign">
-                <div class="modal-cerrar"><i class="fa fa-times"></i></div>
-                <input id="txtEmail" type="txt" placeholder="Correo electrónico">
-                <input id="txtPass" type="password" placeholder="Contraseña">
-                <input id="btnLogin" type="button" value="Entrar">
-            </div>
-        </div>
-    </div>
+	</div>
+	<!-- Tutorial -->
+	<div class="tut-modal tut-modal-hide" ng-include="'components/tutorial-modal.html'"></div>
+	<!-- Signup -->
+	<div class="signup-modal sm-hide">
+		<div class="signup-container">
+			<div class="left-sign">
+				<h1>Bienvenido a DIYCLUB!</h1>
+				<h3>REGISTRATE CON UNOS SIMPLES PASOS</h3>
+			</div>
+			<div class="right-sign">
+				<div class="modal-cerrar"><i class="fa fa-times"></i></div>
+				<input id="txtEmail" type="txt" placeholder="Correo electrónico">
+				<input id="txtPass" type="password" placeholder="Contraseña">
+				<input id="btnSignup" type="button" value="Registrate">
+			</div>
+		</div>
+	</div>
+	<!-- Login -->
+	<div class="login-modal sm-hide">
+		<div class="login-container">
+			<div class="up-sign">
+				<img src="../img/avatar.png" alt="user-img">
+				<h3>Usuario</h3>
+			</div>
+			<div class="down-sign">
+				<div class="modal-cerrar"><i class="fa fa-times"></i></div>
+				<input id="txtEmail" type="txt" placeholder="Correo electrónico">
+				<input id="txtPass" type="password" placeholder="Contraseña">
+				<input id="btnLogin" type="button" value="Entrar">
+			</div>
+		</div>
+	</div>
 
-    <footer ng-include="'components/footer.html'"></footer>
+	<footer ng-include="'components/footer.html'"></footer>
 
-    <!-- Scripts -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-    <script type="text/javascript" src="lib/angular-route.js"></script>
-        <!-- Firebase -->
-        <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
-        <script type="text/javascript" src="js/inits.js"></script>
-        <script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/user.js"></script>
-        <!-- /Firebase -->
-    <script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
-    <script type="text/javascript" src="lib/filter.js"></script>
-    <script type="text/javascript" src="lib/firstVisit.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/tutoriales.js"></script>
+	<!-- Scripts -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+   <script type="text/javascript" src="lib/angular-route.js"></script>
+	<!-- Firebase -->
+	<script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+	<script type="text/javascript" src="js/inits.js"></script>
+	<script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<!-- /Firebase -->
+	<script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
+	<script type="text/javascript" src="lib/filter.js"></script>
+	<script type="text/javascript" src="lib/firstVisit.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/tutoriales.js"></script>
 
-<!--
+	<!--
     <script type="text/javascript">
         /* main.js minW 1038 */
         (function () {
