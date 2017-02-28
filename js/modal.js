@@ -8,8 +8,7 @@ $('.modal-cerrar').on('click', function () {
 	$('.tut-titulo').empty().text();
 	$('.tut-descripcion').empty().text();
 	$('.materiales-box').empty().html();
-	$('.right-sign #txtEmail, .down-sign #txtEmail').val('');
-	$('.right-sign #txtPass, .down-sign #txtPass').val('');
+	$('#signEmail, #signPass, #logEmail, #logPass').val('');
 });
 
 //Pestañas tutoriales

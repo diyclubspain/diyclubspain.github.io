@@ -762,15 +762,17 @@ select {
   padding: 40px; }
 
 /* line 64, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
-#txtEmail,
-#txtPass {
+#signEmail,
+#signPass,
+#logEmail,
+#logPass {
   width: 200px;
   border: none;
   outline: none;
   border-bottom: 1px solid rgba(191, 191, 191, 0.5);
   margin: 5px; }
 
-/* line 73, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+/* line 75, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
 #btnSignup {
   background: #5fcdaa;
   border: none;
@@ -781,7 +783,7 @@ select {
   margin: 20px 0 0;
   cursor: pointer; }
 
-/* line 85, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+/* line 87, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
 .login-container {
   background: #fff;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
@@ -789,13 +791,13 @@ select {
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden; }
-  /* line 92, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+  /* line 94, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
   .login-container input {
     height: 40px;
     margin-bottom: 20px;
     padding: 10px; }
 
-/* line 99, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+/* line 101, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
 .up-sign {
   display: flex;
   flex-direction: column;
@@ -803,14 +805,14 @@ select {
   align-items: center;
   padding: 30px;
   background: #5fcdaa; }
-  /* line 106, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+  /* line 108, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
   .up-sign h3 {
     color: #fff;
     font-size: 18px;
     font-weight: 100;
     margin-top: 20px; }
 
-/* line 114, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+/* line 116, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
 .down-sign {
   display: flex;
   flex-direction: column;
@@ -818,7 +820,7 @@ select {
   align-items: center;
   padding: 30px; }
 
-/* line 122, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
+/* line 124, C:/Users/albpi/Documents/GitHub/diyclubspain.github.io/scss/_sign-modal.scss */
 #btnSignin {
   background: #5fcdaa;
   border: none;

@@ -1,3 +1,4 @@
+
 // Init Firebase
 var config = {
 	apiKey: "AIzaSyBtVyUrAa0d6IjmcAuU4rBAkvnBrt-gPc8",
@@ -9,8 +10,10 @@ var config = {
 firebase.initializeApp(config);
 
 
-const txtEmail = document.getElementById('txtEmail');
-const txtPass = document.getElementById('txtPass');
+const signEmail = document.getElementById('signEmail');
+const logEmail = document.getElementById('logEmail');
+const signPass = document.getElementById('signPass');
+const logPass = document.getElementById('logPass');
 const btnSignup = document.getElementById('btnSignup');
 const btnLogin = document.getElementById('btnLogin');
 const btnLogout = document.getElementById('btnLogout');
@@ -19,11 +22,11 @@ const btnLogout = document.getElementById('btnLogout');
 btnSignup.addEventListener('click', e => {
 
 	//Get email and pass
-	const email = txtEmail.value;
-	const pass = txtPass.value;
+	const sEmail = signEmail.value;
+	const sPass = signPass.value;
 	const auth = firebase.auth();
 	//Signin
-	const promise = auth.createUserWithEmailAndPassword(email, pass);
+	const promise = auth.createUserWithEmailAndPassword(sEmail, sPass);
 	promise.catch(e => console.log(e.message));
 });
 
@@ -31,44 +34,15 @@ btnSignup.addEventListener('click', e => {
 btnLogin.addEventListener('click', e => {
 
 	//Get email and pass
-	const email = txtEmail.value;
-	const pass = txtPass.value;
+	const lEmail = logEmail.value;
+	const lPass = logPass.value;
 	const auth = firebase.auth();
 	//Signin
-	const promise = auth.signInWithEmailAndPassword(email, pass);
+	const promise = auth.signInWithEmailAndPassword(lEmail, lPass);
 	promise.catch(e => console.log(e.message));
 });
 
 //Add email logout event
 btnLogout.addEventListener('click', e => {
 	firebase.auth().signOut();
-});
-
-//Realtime listener
-firebase.auth().onAuthStateChanged(firebaseUser => {
-
-	var user = firebase.auth().currentUser;
-
-	//USER CONNECTED
-	if (firebaseUser) {
-
-		//cambiar a ui user conected
-		$('.user-hover').removeClass('user-hide');
-		$('.signup, .login').addClass('user-hide');
-
-		//cerrar sign modals & reset sign/login inputs
-		$('.signup-modal, .login-modal').addClass('sm-hide');
-		$('main, nav, footer').css('opacity', '1');
-
-	}
-
-	//Usr DISCONNECTED
-	else {
-
-		//cambiar a ui user disconnected
-		$('.user-hover').addClass('user-hide');
-		$('.signup, .login').removeClass('user-hide');
-
-	}
-
 });

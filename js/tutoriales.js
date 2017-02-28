@@ -10,11 +10,6 @@ tutorialesApp.filter('trustAsResourceUrl', ['$sce', function ($sce) {
 
 }]);
 
-tutorialesApp.run(function () {
-
-
-
-});
 
 tutorialesApp.controller('TutorialesController', ['$scope', function ($scope) {
 
