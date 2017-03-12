@@ -19,11 +19,35 @@ $(window).scroll(function () {
 
 });
 
-
 $(document).ready(function () {
 
-    $('#btn-tutoriales').addClass('section-selected');
-    $('.page-tutoriales').show().siblings().hide();
+    $('#btn-tutoriales').addClass('section-selected').siblings().removeClass('section-selected');
+    $('.section').on('click', function(){
+
+      $(this).addClass('section-selected').siblings().removeClass('section-selected');
+
+      if($('#btn-tutoriales').hasClass('section-selected')) {
+        $('.page-tutoriales').addClass('page-view').siblings().removeClass('page-view');
+        $('.page-tutoriales').fadeTo('slow', 1).siblings().css('opacity', '0');
+        $(window).scrollTop(0);
+      }
+      else if($('#btn-articulos').hasClass('section-selected')) {
+        $('.page-articulos').addClass('page-view').siblings().removeClass('page-view');
+        $('.page-articulos').fadeTo('slow', 1).siblings().css('opacity', '0');
+        $(window).scrollTop(0);
+      }
+      else if($('#btn-masters').hasClass('section-selected')) {
+        $('.page-masters').addClass('page-view').siblings().removeClass('page-view');
+        $('.page-masters').fadeTo('slow', 1).siblings().css('opacity', '0');
+        $(window).scrollTop(0);
+      }
+      else if($('#btn-tiendas').hasClass('section-selected')) {
+        $('.page-tiendas').addClass('page-view').siblings().removeClass('page-view');
+        $('.page-tiendas').fadeTo('slow', 1).siblings().css('opacity', '0');
+        $(window).scrollTop(0);
+      }
+
+    });
 
 });
 
@@ -49,3 +73,6 @@ $('.ultimo').on('click', function () {
     $('main, nav, footer').css('opacity', '.2');
 
 });
+
+
+//Sections

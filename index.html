@@ -2,26 +2,26 @@
 <html lang="es" ng-app="tutorialesApp">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<link rel="apple-touch-icon" type="image/png" href="img/apple.png">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="theme-color" content="#5fcdaa">
-	<link rel="icon" type="image/png" href="img/android.png">
-	<link rel="icon" href="favicon.png" type="image/x-icon" />
-	<!-- Posicionamiento -->
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="KACTUS studio 2017©">
-	<title>DIYCLUB</title>
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" type="text/css" media="only screen and (max-width: 1038px)" href="css/m-estilos.css">
-	<!-- Fonts/Icons -->
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono:400,400i,700,700i" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" type="image/png" href="img/apple.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#5fcdaa">
+  <link rel="icon" type="image/png" href="img/android.png">
+  <link rel="icon" href="favicon.png" type="image/x-icon" />
+  <!-- Posicionamiento -->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="KACTUS studio 2017©">
+  <title>DIYCLUB</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 1038px)" href="css/m-estilos.css">
+  <!-- Fonts/Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono:400,400i,700,700i" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body ng-controller="TutorialesController">
@@ -87,20 +87,16 @@
 			</div>
 		</div>
 		<div class="sections">
-			<a href="#/tutoriales">
-				<div id="btn-tutoriales" class="section">Tutoriales</div>
-			</a>
-			<a href="#/articulos">
-				<div id="btn-articulos" class="section">Articulos</div>
-			</a>
-			<div id="btn-masters" class="section">Masters</div>
-			<div id="btn-tiendas" class="section">Tiendas</div>
+			<div id="btn-tutoriales" class="section">Tutoriales</div>
+			<div id="btn-articulos" class="section">Articulos</div>
+         <div id="btn-masters" class="section">Masters</div>
+         <div id="btn-tiendas" class="section">Tiendas</div>
 		</div>
 	</nav>
 
 
-	<div>
-		<main class="page-tutoriales">
+	<div class="pages-container">
+		<main class="page-tutoriales page-view">
 
 			<article class="ultimo t-hide">
 				<div class="ultimo-img">
@@ -145,7 +141,9 @@
 			</article>
 
 		</main>
-
+      <main class="page-articulos" ng-include="'pages/articulos.html'"></main>
+      <main class="page-masters" ng-include="'pages/masters.html'"></main>
+      <main class="page-tiendas" ng-include="'pages/tiendas.html'"></main>
 	</div>
 	<!-- Tutorial -->
 	<div class="tut-modal tut-modal-hide" ng-include="'components/tutorial-modal.html'"></div>
@@ -182,24 +180,24 @@
 
 	<footer ng-include="'components/footer.html'"></footer>
 
-	<!-- Scripts -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-   <script type="text/javascript" src="lib/angular-route.js"></script>
-	<!-- Firebase -->
-	<script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
-	<script type="text/javascript" src="js/inits.js"></script>
-	<script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<script type="text/javascript" src="js/user.js"></script>
-	<!-- /Firebase -->
-	<script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
-	<script type="text/javascript" src="lib/filter.js"></script>
-	<script type="text/javascript" src="lib/firstVisit.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/tutoriales.js"></script>
+  <!-- Scripts -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script type="text/javascript" src="lib/angular-route.js"></script>
+  <!-- Firebase -->
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+  <script type="text/javascript" src="js/inits.js"></script>
+  <script type="text/javascript" src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/user.js"></script>
+  <!-- /Firebase -->
+  <script type="text/javascript" src="lib/mixitup-multifilter.min.js"></script>
+  <script type="text/javascript" src="lib/filter.js"></script>
+  <script type="text/javascript" src="lib/firstVisit.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/tutoriales.js"></script>
 
-	<!--
+  <!--
     <script type="text/javascript">
         /* main.js minW 1038 */
         (function () {
