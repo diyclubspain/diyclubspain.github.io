@@ -342,13 +342,14 @@ select {
   font-size: 12px;
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
-  margin: 6px 2px; }
-  /* line 107, /Users/verdu/Documents/diyclubspain.github.io/scss/_menu.scss */
+  margin: 6px 2px;
+  cursor: pointer; }
+  /* line 108, /Users/verdu/Documents/diyclubspain.github.io/scss/_menu.scss */
   .section:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 113, /Users/verdu/Documents/diyclubspain.github.io/scss/_menu.scss */
+/* line 114, /Users/verdu/Documents/diyclubspain.github.io/scss/_menu.scss */
 .section-selected {
   background: #5fcdaa;
   color: #fff; }
