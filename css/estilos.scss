@@ -7,23 +7,34 @@
 @import "../scss/_sign-modal";
 @import "../scss/_footer";
 
+.pages-container {
+  overflow-x: hidden;
+}
+
 main {
   min-width: calc(100% - 250px);
   min-height: calc(100vh - 460px);
   margin: 140px 250px 80px;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 60px 0;
   transition: 0s;
 }
 
-.page-articulos, .page-masters, .page-tiendas {
+.page-tutoriales, .page-articulos, .page-masters, .page-tiendas {
+  position: fixed;
+  top: 0;
+  transform: translateX(100vw);
   opacity: 0;
+  transition: .5s;
 }
 
 .page-view {
-  display: flex;
+  position: inherit;
+  transform: translateX(0);
+  transition: .5s;
+  opacity: 1;
 }
 
 .ultimo {

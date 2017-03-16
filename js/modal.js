@@ -17,12 +17,12 @@ $('.btn-modal').on('click', function () {
 	$(this).addClass('bm-activo').siblings().removeClass('bm-activo');
 
 	if ($('.md').hasClass('bm-activo')) {
-		$('.b-descripcion').addClass('box-activa').siblings().removeClass('box-activa');
+		$('.box-descripcion').addClass('box-activa').siblings().removeClass('box-activa');
 	} else
 	if ($('.mp').hasClass('bm-activo')) {
-		$('.b-pasos').addClass('box-activa').siblings().removeClass('box-activa');
+		$('.box-pasos').addClass('box-activa').siblings().removeClass('box-activa');
 	} else
 	if ($('.mc').hasClass('bm-activo')) {
-		$('.b-comentarios').addClass('box-activa').siblings().removeClass('box-activa');
+		$('.box-comentarios').addClass('box-activa').siblings().removeClass('box-activa');
 	}
 });
