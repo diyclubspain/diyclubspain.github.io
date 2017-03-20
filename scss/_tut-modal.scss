@@ -124,8 +124,8 @@
 .tut-descripcion {
   font-size: 12px;
   padding: 10px 0;
-  border-top: 1px solid $line;
-  border-bottom: 1px solid $line;
+  border-top: 1px solid $diy;
+  border-bottom: 1px solid $diy;
 }
 
 .materiales-box {
@@ -151,8 +151,13 @@
   }
   li {
     width: 90%;
-    margin: 0 0 20px 10%;
+    margin-left: 10%;
     font-size: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid $diy;
+    &:last-child {
+      border-bottom: none;
+    }
   }
 }
 
