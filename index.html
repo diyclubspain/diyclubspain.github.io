@@ -138,12 +138,14 @@
               <li ng-repeat="material in tutorial.materiales">{{material}}</li>
             </ul>
             <!-- Modal pasos -->
-            <ul class="modal-pasos t-hide">
+            <ol class="modal-pasos t-hide">
               <h3>Pasos</h3>
               <li ng-repeat="paso in tutorial.pasos">{{paso}}</li>
-            </ul>
+            </ol>
             <!-- Modal comentarios -->
-            <h3 class="modal-comentarios t-hide">Comentarios</h3>
+            <div class="modal-comentarios t-hide">
+              <p>Debes estar conectado para ver y escribir comentarios!</p>
+            </div>
           </div>
 
         </article>

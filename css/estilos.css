@@ -660,23 +660,34 @@ select {
   border-bottom: 1px solid rgba(191, 191, 191, 0.5); }
 
 /* line 131, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
-.materiales-box,
-.pasos-box {
+.materiales-box {
   width: 100%;
   margin-top: 20px; }
-  /* line 135, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
-  .materiales-box h3,
-  .pasos-box h3 {
+  /* line 134, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+  .materiales-box h3 {
     font-size: 16px;
     margin-bottom: 10px; }
-  /* line 139, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
-  .materiales-box li,
-  .pasos-box li {
+  /* line 138, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+  .materiales-box li {
     width: 90%;
     margin-left: 10%;
     font-size: 12px; }
 
-/* line 146, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+/* line 145, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+.pasos-box {
+  width: 100%;
+  margin-top: 20px; }
+  /* line 148, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+  .pasos-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  /* line 152, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+  .pasos-box li {
+    width: 90%;
+    margin: 0 0 20px 10%;
+    font-size: 12px; }
+
+/* line 159, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
 .bm-contenedor {
   display: flex;
   justify-content: center;
@@ -688,7 +699,7 @@ select {
   margin-top: 10px;
   box-shadow: inset 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
-/* line 158, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+/* line 171, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
 .btn-modal {
   text-align: center;
   padding: 7px;
@@ -696,12 +707,12 @@ select {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 4px 2px; }
-  /* line 165, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+  /* line 178, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
   .btn-modal:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 171, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
+/* line 184, /Users/verdu/Documents/diyclubspain.github.io/scss/_tut-modal.scss */
 .bm-activo {
   background: #5fcdaa;
   color: #fff; }
