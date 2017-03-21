@@ -33,8 +33,8 @@ tutorialesApp.controller('TutorialesController', ['$scope', '$http', function ($
 
   };
 
-  $http.get('data/tutoriales.json').success(function(data){
-    $scope.tutoriales = data;
+  $http.get('https://diyclubspain.github.io/data/tutoriales.json').then(function(response){
+    $scope.tutoriales = response.data;
   });
 
 //  $scope.tutoriales = [
