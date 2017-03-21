@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" ng-app="tutorialesApp">
+<html lang="es">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -24,7 +24,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body ng-controller="TutorialesController">
+  <body ng-app="tutorialesApp">
 
   <!-- Pop up bienvenida -->
   <div id="bienvenidos">
@@ -97,9 +97,9 @@
 
   <div class="pages-container">
 
-		<main class="page-tutoriales page-view">
+      <main class="page-tutoriales page-view" ng-controller="TutorialesController">
 
-        <article class="ultimo t-hide">
+        <article ng-click="openModal($event)" class="ultimo t-hide">
           <div class="ultimo-img">
             <img src="img/back.jpeg" alt="ultimo">
           </div>
@@ -111,9 +111,7 @@
 
         <article id="Container" class="container all-content">
 
-          <div class="fail-message"><span>Ups! no lo tenemos todavía, pero pensaremos en ello!</span></div>
-
-          <div ng-click="openModal($event)" class="tarjeta mix {{tutorial.categoria}} {{tutorial.dificultad}}" style="background-image: url(../img/tutoriales/{{tutorial.imagen}}.png);" ng-repeat="tutorial in tutoriales">
+          <div ng-click="openModal($event)" class="tarjeta mix {{tutorial.categoria}} {{tutorial.dificultad}}" style="background-image: url(../img/tutoriales/{{tutorial.imagen}}.png);" ng-repeat="tutorial in tutoriales | orderBy:'-'">
             <div class="fa-content"><i class="favorito fa fa-heart shadowed"></i></div>
             <div>
               <div class="categoria-tarjeta {{tutorial.categoria}}"></div>
@@ -148,12 +146,14 @@
             </div>
           </div>
 
+          <div class="fail-message"><span>Ups! no lo tenemos todavía, pero pensaremos en ello!</span></div>
+
         </article>
 
 		</main>
-      <main class="page-articulos" ng-include="'pages/articulos.html'"></main>
-      <main class="page-masters" ng-include="'pages/masters.html'"></main>
-      <main class="page-tiendas" ng-include="'pages/tiendas.html'"></main>
+    <main class="page-articulos" ng-include="'pages/articulos.html'" ng-controller="TutorialesController"></main>
+    <main class="page-masters" ng-include="'pages/masters.html'" ng-controller="TutorialesController"></main>
+    <main class="page-tiendas" ng-include="'pages/tiendas.html'" ng-controller="TutorialesController"></main>
 
   </div>
   <!-- Tutorial modal -->
@@ -209,6 +209,7 @@
   <script type="text/javascript" src="js/tutoriales.js"></script>
   <!-- Info tutoriales -->
   <script type="text/javascript" src="data/tuto-info.js"></script>
+  <script type="text/javascript" src="data/articulos-info.js"></script>
 
 </body>
 

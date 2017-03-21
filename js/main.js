@@ -58,14 +58,3 @@ $('.login').on('click', function () {
   $('main, nav, footer').css('opacity', '.2');
 
 });
-
-
-$('.ultimo').on('click', function () {
-
-  $('.tut-modal').removeClass('tut-modal-hide');
-  $('main, nav, footer').css('opacity', '.2');
-
-});
-
-
-//Sections

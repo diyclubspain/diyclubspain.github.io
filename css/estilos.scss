@@ -30,6 +30,11 @@ main {
   transition: .5s;
 }
 
+.page-tiendas {
+  display: flex;
+  justify-content: center;
+}
+
 .page-view {
   position: inherit;
   transform: translateX(0);

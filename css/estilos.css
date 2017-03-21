@@ -205,11 +205,6 @@ select {
 
 /* line 139, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container .fail-message {
-  position: absolute;
-  top: 480px;
-  left: 250px;
-  bottom: 0;
-  right: 0;
   text-align: center;
   opacity: 0;
   pointer-events: none;
@@ -217,21 +212,21 @@ select {
   -moz-transition: 150ms;
   transition: 150ms; }
 
-/* line 153, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 148, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container .fail-message:before {
   content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%; }
 
-/* line 160, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 155, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container .fail-message span {
   display: inline-block;
   vertical-align: middle;
   font-size: 20px;
   font-weight: 700; }
 
-/* line 167, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 162, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container.fail .fail-message {
   opacity: 1;
   pointer-events: auto; }
@@ -388,15 +383,15 @@ select {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 7px 10px 0 rgba(0, 0, 0, 0.1), inset 0 0 5px 0 rgba(255, 255, 255, 0.7);
     transition: .2s; }
 
-/* line 23, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 27, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .container .tarjeta {
   display: none; }
 
-/* line 27, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 31, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .t-hide {
   display: none; }
 
-/* line 31, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 35, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .favorito {
   color: #fff;
   cursor: pointer;
@@ -406,18 +401,18 @@ select {
   filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
   margin: 5px 5px 0 0; }
 
-/* line 41, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 45, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .favorito:hover {
   color: #ff3c3c;
   transform: scale(1.2, 1.2); }
 
-/* line 46, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 50, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .fa-content {
   width: 100%;
   display: flex;
   justify-content: flex-end; }
 
-/* line 52, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 56, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .categoria-tarjeta {
   width: 40px;
   height: 40px;
@@ -425,31 +420,31 @@ select {
   z-index: 1;
   transform: translate(15px, 80px); }
 
-/* line 60, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 64, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .segunda {
   background-image: url("../img/tarjeta-segunda-vida.png"); }
 
-/* line 64, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 68, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .papeles {
   background-image: url("../img/tarjeta-papel.png"); }
 
-/* line 68, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 72, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .labores {
   background-image: url("../img/tarjeta-labores.png"); }
 
-/* line 72, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 76, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .peques {
   background-image: url("../img/tarjeta-peques.png"); }
 
-/* line 76, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 80, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .decoracion {
   background-image: url("../img/tarjeta-decoracion.png"); }
 
-/* line 80, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 84, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .otras {
   background-image: url("../img/tarjeta-otras-ideas.png"); }
 
-/* line 84, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 88, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .caja {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.8);
@@ -458,32 +453,32 @@ select {
   flex-direction: column;
   overflow: hidden;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 4px 5px 0 rgba(0, 0, 0, 0.1), inset 0 0 2px 0 rgba(255, 255, 255, 0.7); }
-  /* line 92, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+  /* line 96, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
   .caja:hover {
     background-color: rgba(255, 255, 255, 0.95); }
 
-/* line 97, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 101, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .titulo {
   font-size: 13px;
   font-weight: 700;
   padding: 25px 15px 0 15px; }
 
-/* line 103, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 107, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .master {
   font-size: 11px;
   padding: 5px 0 15px 15px; }
-  /* line 106, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+  /* line 110, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
   .master a {
     color: #55c4b6;
     font-style: italic; }
-  /* line 110, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+  /* line 114, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
   .master:hover {
     text-decoration: none; }
-  /* line 113, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+  /* line 117, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
   .master .fa {
     margin-left: 10px; }
 
-/* line 118, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 122, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .sub-caja {
   height: 35px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -494,19 +489,19 @@ select {
   text-align: center;
   align-items: center; }
 
-/* line 129, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 133, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .divider-tarjeta {
   width: 1px;
   background-color: rgba(191, 191, 191, 0.5);
   height: 100%; }
 
-/* line 135, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 139, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .sub-izq {
   width: 56%;
   text-align: left;
   padding-left: 15px; }
 
-/* line 141, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 145, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .sub-cen,
 .sub-der {
   width: 22%;
@@ -514,17 +509,17 @@ select {
   justify-content: center;
   align-items: center; }
 
-/* line 149, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 153, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .sub-cen p {
   font-size: 14px;
   margin-left: 2px; }
 
-/* line 154, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 158, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .vision {
   color: #444;
   font-size: 12px; }
 
-/* line 159, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
+/* line 163, /Users/verdu/Documents/diyclubspain.github.io/scss/_tarjetas.scss */
 .rate {
   color: #444;
   font-size: 12px;
@@ -941,13 +936,18 @@ main {
   transition: .5s; }
 
 /* line 33, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+.page-tiendas {
+  display: flex;
+  justify-content: center; }
+
+/* line 38, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .page-view {
   position: inherit;
   transform: translateX(0);
   transition: .5s;
   opacity: 1; }
 
-/* line 40, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 45, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ultimo {
   width: 100%;
   max-width: 1100px;
@@ -966,7 +966,7 @@ main {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 10px 30px 0 rgba(0, 0, 0, 0.1);
   transform-origin: top; }
 
-/* line 59, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 64, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ultimo-img {
   height: 100%;
   overflow: hidden;
@@ -975,11 +975,11 @@ main {
   transform-origin: right;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   margin-left: 50px; }
-  /* line 67, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 72, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .ultimo-img img {
     height: 100%; }
 
-/* line 72, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 77, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .ideas-frescas {
   width: 45%;
   display: flex;
@@ -988,13 +988,13 @@ main {
   padding: 40px;
   margin-left: 20px;
   font-size: 14px; }
-  /* line 80, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 85, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .ideas-frescas h1 {
     font-size: 60px;
     line-height: .8;
     margin-bottom: 20px; }
 
-/* line 87, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 92, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .all-content {
   max-width: 1100px;
   display: flex;
@@ -1008,24 +1008,24 @@ main {
   box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.1); }
 
 @media only screen and (max-width: 1556px) {
-  /* line 101, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 106, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content,
   .ultimo {
     max-width: 835px; } }
 
 @media only screen and (max-width: 1296px) {
-  /* line 108, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 113, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content,
   .ultimo {
     max-width: 575px; } }
 
 @media only screen and (max-width: 786px) {
-  /* line 115, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 120, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .all-content,
   .ultimo {
     max-width: 320px; } }
 
-/* line 121, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 126, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .pages {
   display: flex;
   justify-content: center;
@@ -1035,7 +1035,7 @@ main {
   padding: 4px 3px;
   margin: 30px 0; }
 
-/* line 131, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 136, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .num-pages {
   width: 25px;
   height: 25px;
@@ -1045,17 +1045,17 @@ main {
   color: rgba(68, 68, 68, 0.8);
   border-radius: 20px;
   margin: 0 2px; }
-  /* line 140, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 145, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .num-pages:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 146, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 151, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .page-activa {
   background: #5fcdaa;
   color: #fff; }
 
-/* line 151, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 156, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 .icon-pages {
   width: 25px;
   height: 25px;
@@ -1066,12 +1066,12 @@ main {
   color: #bfbfbf;
   border-radius: 20px;
   margin: 0 2px; }
-  /* line 161, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+  /* line 166, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
   .icon-pages:hover {
     background: #5fcdaa;
     color: #fff; }
 
-/* line 167, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
+/* line 172, /Users/verdu/Documents/diyclubspain.github.io/css/estilos.scss */
 #tut-modal {
   display: none; }
 
