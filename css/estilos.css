@@ -211,22 +211,32 @@ select {
   -webkit-transition: 150ms;
   -moz-transition: 150ms;
   transition: 150ms; }
+  /* line 146, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+  .container .fail-message h3 {
+    font-size: 20px; }
+  /* line 149, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+  .container .fail-message p {
+    font-size: 12px;
+    margin-top: 10px; }
+  /* line 153, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+  .container .fail-message a {
+    color: #5fcdaa; }
 
-/* line 148, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 158, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container .fail-message:before {
   content: '';
   display: inline-block;
   vertical-align: middle;
   height: 100%; }
 
-/* line 155, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 165, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container .fail-message span {
   display: inline-block;
   vertical-align: middle;
   font-size: 20px;
   font-weight: 700; }
 
-/* line 162, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
+/* line 172, /Users/verdu/Documents/diyclubspain.github.io/scss/_filtro.scss */
 .container.fail .fail-message {
   opacity: 1;
   pointer-events: auto; }
