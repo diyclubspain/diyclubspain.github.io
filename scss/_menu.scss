@@ -7,9 +7,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba($back, .9);
+    background: rgba($diy, .9);
     z-index: 998;
-    box-shadow: 0 0 30px 30px rgba($back, .9);
+    box-shadow: 0 0 30px 20px rgba($diy, .9);
     transition: .5s;
 }
 

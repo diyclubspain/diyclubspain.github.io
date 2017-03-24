@@ -11,6 +11,17 @@
   overflow-x: hidden;
 }
 
+.color-head {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-height: 400px;
+  background: #5fcdaa;
+  transform: rotate(-3deg) translate(100px, -50px);
+  border-bottom: 1px solid $line;
+}
+
 main {
   min-width: calc(100% - 250px);
   min-height: calc(100vh - 460px);
